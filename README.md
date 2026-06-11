@@ -1,0 +1,77 @@
+#Parse scRNAseq: Human Digit tips amputations project
+
+## Data Generation (Split-pipe preprocessing)
+
+Split-pipe output was generated separately for each WT (WT01, WT03, WT04, WT05, WT24, WT36, WT38, WT47), each containing multiple conditions/time points (3d, 6d, 9d) and associated processed outputs.
+
+For each WT, all corresponding samples were imported and combined into a single Scanpy AnnData object, resulting in one h5ad file per WT. Each WT was then treated independently for downstream analysis.
+
+Quality control was performed separately for each WT h5ad object. Pre-filtering and post-filtering QC metrics were generated for each WT to assess data quality and the effect of filtering.
+
+### Pre-filter quality control (WT-level)
+
+Pre-filter QC metrics were visualised for each WT replicate prior to filtering. These plots show distributions of key quality metrics including total counts, number of detected genes, and mitochondrial content.
+
+<img src="figures/violin_WT01_QC_pre_violin.png?v=1" width="45%" /><img src="figures/violin_WT03_QC_pre_violin.png?v=1" width="45%" />
+<img src="figures/violin_WT04_QC_pre_violin.png?v=1" width="45%" /><img src="figures/violin_WT05_QC_pre_violin.png?v=1" width="45%" />
+<img src="figures/violin_WT24_QC_pre_violin.png?v=1" width="45%" /><img src="figures/violin_WT36_QC_pre_violin.png?v=1" width="45%" />
+<img src="figures/violin_WT38_QC_pre_violin.png?v=1" width="45%" /><img src="figures/violin_WT47_QC_pre_violin.png?v=1" width="45%" />
+
+
+### Quality control filtering
+
+Cells were filtered using the following quality control thresholds applied consistently across all WT replicates: minimum 500 detected genes per cell, maximum 12,000 genes per cell, minimum 1,000 total counts per cell, maximum 100,000 total counts per cell, and maximum mitochondrial content of 15%.
+
+Genes detected in fewer than 3 cells were removed, and cells with fewer than 200 detected genes were excluded from downstream analysis.
+
+##### Post filtering 
+
+Post-filter QC metrics were visualised for each WT replicate after applying quality control filtering. These plots show the distributions of key quality metrics following removal of low-quality cells.
+
+<img src="figures/violin_WT01_QC_post_violin.png?v=1" width="45%" /><img src="figures/violin_WT03_QC_post_violin.png?v=1" width="45%" />
+<img src="figures/violin_WT04_QC_post_violin.png?v=1" width="45%" /><img src="figures/violin_WT05_QC_post_violin.png?v=1" width="45%" />
+<img src="figures/violin_WT24_QC_post_violin.png?v=1" width="45%" /><img src="figures/violin_WT36_QC_post_violin.png?v=1" width="45%" />
+<img src="figures/violin_WT38_QC_post_violin.png?v=1" width="45%" /><img src="figures/violin_WT47_QC_post_violin.png?v=1" width="45%" />
+
+
+
+### Doublet detection and removal
+
+Potential doublets (droplets containing more than one cell) were identified for each WT replicate using a computational approach based on transcriptomic similarity patterns. Each cell was assigned a doublet score reflecting the likelihood of being a multiplet.
+
+Cells were classified as doublets using a score threshold of 0.3, and those exceeding this cutoff were removed prior to downstream analysis. The distribution of doublet scores was visualised for each replicate to assess separation between singlets and predicted doublets and to validate the filtering step.
+
+The resulting datasets contain only high-confidence single cells and were used for all subsequent analyses.
+
+#### Doublet score distribution
+
+<img src="figures/WT01_doubletRemoved_scrublet_scores.png?v=1" width="45%" /><img src="figures/WT03_doubletRemoved_scrublet_scores.png?v=1" width="45%" />
+<img src="figures/WT04_doubletRemoved_scrublet_scores.png?v=1" width="45%" /><img src="figures/WT05_doubletRemoved_scrublet_scores.png?v=1" width="45%" />
+<img src="figures/WT24_doubletRemoved_scrublet_scores.png?v=1" width="45%" /><img src="figures/WT36_doubletRemoved_scrublet_scores.png?v=1" width="45%" />
+<img src="figures/WT38_doubletRemoved_scrublet_scores.png?v=1" width="45%" /><img src="figures/WT47_doubletRemoved_scrublet_scores.png?v=1" width="45%" />
+
+The table below summarises the number of cells before and after doublet removal for each WT replicate, along with the number of predicted doublets removed.
+
+| WT   | Cells before | Doublets removed | Cells after |
+|------|-------------:|-----------------:|------------:|
+| WT01 | 8637         | 11               | 8626        |
+| WT03 | 8501         | 15               | 8486        |
+| WT04 | 8398         | 15               | 8383        |
+| WT05 | 8521         | 12               | 8509        |
+| WT24 | 8550         | 21               | 8529        |
+| WT36 | 8323         | 17               | 8306        |
+| WT38 | 7793         | 10               | 7783        |
+| WT47 | 7839         | 18               | 7821        |
+
+### Integration and downstream analysis
+
+After doublet removal, all WT datasets were merged into a single unified single-cell dataset to enable comparative analysis across replicates. During merging, cell identities were preserved to retain dataset-of-origin information for each cell.
+
+The combined dataset was then processed for downstream analysis, including normalisation, feature selection, dimensionality reduction, and visualization. This allowed the data to be represented in a low-dimensional space while preserving biologically meaningful variation across cells and samples.
+
+The final integrated dataset was used for all downstream analyses, including clustering and cell state identification.
+
+
+![](figures/umap_analyzed_umap.png?v=1)
+
+
