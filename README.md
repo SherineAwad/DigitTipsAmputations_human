@@ -112,10 +112,8 @@ The final integrated dataset was used for all downstream analyses, including clu
 
 ###### And per sample 
 
-![](figures/umap_analyzed_umap_Uninjured.png?v=1)
-![](figures/umap_analyzed_umap_3d.png?v=1)
-![](figures/umap_analyzed_umap_6d.png?v=1)
-![](figures/umap_analyzed_umap_9d.png?v=1)
+<img src="figures/umap_analyzed_umap_Uninjured.png?v=1" width="45%" /><img src="figures/umap_analyzed_umap_3d.png?v=1" width="45%" />
+<img src="figures/umap_analyzed_umap_6d.png?v=1" width="45%" /><img src="figures/umap_analyzed_umap_9d.png?v=1" width="45%" />
 
 ## Clustering and cluster-level quality assessment
 
