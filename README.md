@@ -1,4 +1,4 @@
-#Parse scRNAseq: Human Digit tips amputations project
+# Parse scRNAseq: Human Digit tips amputations project
 
 ## Data Generation (Split-pipe preprocessing)
 
@@ -108,6 +108,23 @@ The combined dataset was then processed for downstream analysis, including norma
 The final integrated dataset was used for all downstream analyses, including clustering and cell state identification.
 
 
-![](figures/umap_analyzed_umap.png?v=2)
+![](figures/umap_analyzed_umap.png?v=3)
 
+###### And per sample 
+
+![](figures/umap_analyzed_umap_Uninjured.png?v=1)
+![](figures/umap_analyzed_umap_3d.png?v=1)
+![](figures/umap_analyzed_umap_6d.png?v=1)
+![](figures/umap_analyzed_umap_9d.png?v=1)
+
+## Clustering and cluster-level quality assessment
+
+After integration and preprocessing, cells were grouped into transcriptionally distinct clusters using unsupervised clustering based on gene expression similarity. The resulting clusters were visualised in a low-dimensional embedding to assess overall structure and separation between cell populations.
+
+To ensure cluster quality, key quality control metrics (including gene complexity, total RNA counts, and mitochondrial content) were evaluated across clusters. This allowed identification of clusters with distinct quality characteristics and supported downstream interpretation of biological versus low-quality or stressed cell populations.
+
+
+![](figures/umap_allWT_clustered_leiden.png?v=1)
+
+<img src="figures/violin_allWT_clustered_QC_n_genes_by_counts.png?v=1" width="33%" /><img src="figures/violin_allWT_clustered_QC_total_counts.png?v=1" width="33%" /><img src="figures/violin_allWT_clustered_QC_pct_counts_mt.png?v=1" width="33%" />
 
