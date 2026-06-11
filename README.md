@@ -14,18 +14,25 @@ Pre-filter QC metrics were visualised for each WT replicate prior to filtering. 
 
 ###### WT01
 <img src="figures/violin_WT01_QC_pre_violin.png?v=1" width="90%" />
+
 ###### WT03
 <img src="figures/violin_WT03_QC_pre_violin.png?v=1" width="90%" />
+
 ###### WT04
 <img src="figures/violin_WT04_QC_pre_violin.png?v=1" width="90%" />
+
 ###### WT05
 <img src="figures/violin_WT05_QC_pre_violin.png?v=1" width="90%" />
+
 ###### WT24
 <img src="figures/violin_WT24_QC_pre_violin.png?v=1" width="90%" />
+
 ###### WT36
 <img src="figures/violin_WT36_QC_pre_violin.png?v=1" width="90%" />
+
 ###### WT38
 <img src="figures/violin_WT38_QC_pre_violin.png?v=1" width="90%" />
+
 ###### WT47
 <img src="figures/violin_WT47_QC_pre_violin.png?v=1" width="90%" />
 
@@ -41,18 +48,25 @@ Post-filter QC metrics were visualised for each WT replicate after applying qual
 
 ###### WT01
 <img src="figures/violin_WT01_QC_post_violin.png?v=1" width="90%" />
+
 ###### WT03
 <img src="figures/violin_WT03_QC_post_violin.png?v=1" width="90%" />
+
 ###### WT04
 <img src="figures/violin_WT04_QC_post_violin.png?v=1" width="90%" />
+
 ###### WT05
 <img src="figures/violin_WT05_QC_post_violin.png?v=1" width="90%" />
+
 ###### WT24
 <img src="figures/violin_WT24_QC_post_violin.png?v=1" width="90%" />
+
 ###### WT36
 <img src="figures/violin_WT36_QC_post_violin.png?v=1" width="90%" />
+
 ###### WT38
 <img src="figures/violin_WT38_QC_post_violin.png?v=1" width="90%" />
+
 ###### WT47
 <img src="figures/violin_WT47_QC_post_violin.png?v=1" width="90%" />
 
