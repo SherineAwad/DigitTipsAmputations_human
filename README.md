@@ -12,20 +12,21 @@ Quality control was performed separately for each WT h5ad object. Pre-filtering 
 
 Pre-filter QC metrics were visualised for each WT replicate prior to filtering. These plots show distributions of key quality metrics including total counts, number of detected genes, and mitochondrial content.
 
+###### WT01
 <img src="figures/violin_WT01_QC_pre_violin.png?v=1" width="90%" />
-
+###### WT03
 <img src="figures/violin_WT03_QC_pre_violin.png?v=1" width="90%" />
-
+###### WT04
 <img src="figures/violin_WT04_QC_pre_violin.png?v=1" width="90%" />
-
+###### WT05
 <img src="figures/violin_WT05_QC_pre_violin.png?v=1" width="90%" />
-
+###### WT24
 <img src="figures/violin_WT24_QC_pre_violin.png?v=1" width="90%" />
-
+###### WT36
 <img src="figures/violin_WT36_QC_pre_violin.png?v=1" width="90%" />
-
+###### WT38
 <img src="figures/violin_WT38_QC_pre_violin.png?v=1" width="90%" />
-
+###### WT47
 <img src="figures/violin_WT47_QC_pre_violin.png?v=1" width="90%" />
 
 ### Quality control filtering
@@ -38,20 +39,21 @@ Genes detected in fewer than 3 cells were removed, and cells with fewer than 200
 
 Post-filter QC metrics were visualised for each WT replicate after applying quality control filtering. These plots show the distributions of key quality metrics following removal of low-quality cells.
 
+###### WT01
 <img src="figures/violin_WT01_QC_post_violin.png?v=1" width="90%" />
-
+###### WT03
 <img src="figures/violin_WT03_QC_post_violin.png?v=1" width="90%" />
-
+###### WT04
 <img src="figures/violin_WT04_QC_post_violin.png?v=1" width="90%" />
-
+###### WT05
 <img src="figures/violin_WT05_QC_post_violin.png?v=1" width="90%" />
-
+###### WT24
 <img src="figures/violin_WT24_QC_post_violin.png?v=1" width="90%" />
-
+###### WT36
 <img src="figures/violin_WT36_QC_post_violin.png?v=1" width="90%" />
-
+###### WT38
 <img src="figures/violin_WT38_QC_post_violin.png?v=1" width="90%" />
-
+###### WT47
 <img src="figures/violin_WT47_QC_post_violin.png?v=1" width="90%" />
 
 
