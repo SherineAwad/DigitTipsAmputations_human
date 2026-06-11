@@ -1,10 +1,8 @@
 import scanpy as sc
 import argparse
-import os
-
+import numpy as np
 
 def main():
-
     parser = argparse.ArgumentParser()
     parser.add_argument('--input', required=True)
     parser.add_argument('--output', required=True)
@@ -12,52 +10,47 @@ def main():
     args = parser.parse_args()
 
     # -------------------------
-    # LOAD
+    # LOAD DATA (SAFE COPY)
     # -------------------------
-    adata = sc.read_h5ad(args.input).copy()
-
-    print(f"[LOAD] {adata.n_obs} cells × {adata.n_vars} genes")
-
-    os.makedirs("figures", exist_ok=True)
+    adata = sc.read(args.input).copy()
 
     # -------------------------
-    # KEEP RAW COUNTS
+    # SAVE RAW COUNTS
     # -------------------------
     adata.layers["counts"] = adata.X.copy()
 
-    # -------------------------
-    # HVG SELECTION
-    # -------------------------
-    sc.pp.highly_variable_genes(
-        adata,
-        n_top_genes=2000,
-        flavor="seurat_v3"
-    )
 
-    print(f"[HVG] {adata.var['highly_variable'].sum()} genes selected")
+    adata.var_names_make_unique()
+    adata.obs_names_make_unique()
 
     # -------------------------
-    # PCA ON HVGs ONLY
+    # NORMALISATION
     # -------------------------
-    adata_pca = adata[:, adata.var["highly_variable"]].copy()
-
-    sc.tl.pca(
-        adata_pca,
-        n_comps=30,
-        svd_solver="arpack"
-    )
-
-    adata.obsm["X_pca"] = adata_pca.obsm["X_pca"]
-
-    print("[PCA] done")
+    sc.pp.normalize_total(adata, target_sum=1e4)
+    sc.pp.log1p(adata)
+    sc.pp.highly_variable_genes(adata,n_top_genes=2000,flavor="seurat")
+    adata.layers["log1p"] = adata.X.copy()
 
     # -------------------------
-    # NEIGHBORS + UMAP
+    # CLEAN MATRIX
+    # -------------------------
+    adata.X = adata.X.copy()
+
+    # -------------------------
+    # SCALE + PCA
+    # -------------------------
+    sc.pp.scale(adata, max_value=10)
+
+    sc.tl.pca(adata,n_comps=30,svd_solver="arpack", use_highly_variable=True)
+
+    # sanity check
+    print("PCA shape:", adata.obsm["X_pca"].shape)
+
+    # -------------------------
+    # UMAP
     # -------------------------
     sc.pp.neighbors(adata, use_rep="X_pca")
     sc.tl.umap(adata)
-
-    print("[UMAP] done")
 
     # -------------------------
     # GLOBAL UMAP
@@ -65,7 +58,7 @@ def main():
     sc.pl.umap(
         adata,
         color="sample",
-        show=False,
+        size=20,
         save=f"_{args.prefix}_umap.png"
     )
 
@@ -73,22 +66,18 @@ def main():
     # PER-SAMPLE UMAP
     # -------------------------
     for s in adata.obs["sample"].unique():
-
         sc.pl.umap(
             adata[adata.obs["sample"] == s],
             color="sample",
+            size=20,
             title=f"Sample: {s}",
-            show=False,
-            save=f"_{args.prefix}_umap_{s}.png"
+            save=f"_{args.prefix}_{s}.png"
         )
 
     # -------------------------
-    # SAVE OBJECT
+    # SAVE FINAL OBJECT
     # -------------------------
     adata.write(args.output)
-
-    print(f"[SAVED] {args.output}")
-
 
 if __name__ == "__main__":
     main()
