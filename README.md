@@ -13,28 +13,28 @@ Quality control was performed separately for each WT h5ad object. Pre-filtering 
 Pre-filter QC metrics were visualised for each WT replicate prior to filtering. These plots show distributions of key quality metrics including total counts, number of detected genes, and mitochondrial content.
 
 ###### WT01
-<img src="figures/violin_WT01_QC_pre_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT01_QC_pre_violin.png?v=3" width="90%" />
 
 ###### WT03
-<img src="figures/violin_WT03_QC_pre_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT03_QC_pre_violin.png?v=3" width="90%" />
 
 ###### WT04
-<img src="figures/violin_WT04_QC_pre_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT04_QC_pre_violin.png?v=3" width="90%" />
 
 ###### WT05
-<img src="figures/violin_WT05_QC_pre_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT05_QC_pre_violin.png?v=3" width="90%" />
 
 ###### WT24
-<img src="figures/violin_WT24_QC_pre_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT24_QC_pre_violin.png?v=3" width="90%" />
 
 ###### WT36
-<img src="figures/violin_WT36_QC_pre_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT36_QC_pre_violin.png?v=3" width="90%" />
 
 ###### WT38
-<img src="figures/violin_WT38_QC_pre_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT38_QC_pre_violin.png?v=3" width="90%" />
 
 ###### WT47
-<img src="figures/violin_WT47_QC_pre_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT47_QC_pre_violin.png?v=3" width="90%" />
 
 ### Quality control filtering
 
@@ -47,28 +47,28 @@ Genes detected in fewer than 3 cells were removed, and cells with fewer than 200
 Post-filter QC metrics were visualised for each WT replicate after applying quality control filtering. These plots show the distributions of key quality metrics following removal of low-quality cells.
 
 ###### WT01
-<img src="figures/violin_WT01_QC_post_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT01_QC_post_violin.png?v=3" width="90%" />
 
 ###### WT03
-<img src="figures/violin_WT03_QC_post_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT03_QC_post_violin.png?v=3" width="90%" />
 
 ###### WT04
-<img src="figures/violin_WT04_QC_post_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT04_QC_post_violin.png?v=3" width="90%" />
 
 ###### WT05
-<img src="figures/violin_WT05_QC_post_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT05_QC_post_violin.png?v=3" width="90%" />
 
 ###### WT24
-<img src="figures/violin_WT24_QC_post_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT24_QC_post_violin.png?v=3" width="90%" />
 
 ###### WT36
-<img src="figures/violin_WT36_QC_post_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT36_QC_post_violin.png?v=3" width="90%" />
 
 ###### WT38
-<img src="figures/violin_WT38_QC_post_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT38_QC_post_violin.png?v=3" width="90%" />
 
 ###### WT47
-<img src="figures/violin_WT47_QC_post_violin.png?v=1" width="90%" />
+<img src="figures/violin_WT47_QC_post_violin.png?v=3" width="90%" />
 
 
 ### Doublet detection and removal
@@ -81,9 +81,9 @@ The resulting datasets contain only high-confidence single cells and were used f
 
 #### Doublet score distribution
 
-<img src="figures/WT01_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT03_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT04_doubletRemoved_scrublet_scores.png?v=1" width="33%" />
-<img src="figures/WT05_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT24_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT36_doubletRemoved_scrublet_scores.png?v=1" width="33%" />
-<img src="figures/WT38_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT47_doubletRemoved_scrublet_scores.png?v=1" width="33%" />
+<img src="figures/WT01_doubletRemoved_scrublet_scores.png?v=3" width="33%" /><img src="figures/WT03_doubletRemoved_scrublet_scores.png?v=3" width="33%" /><img src="figures/WT04_doubletRemoved_scrublet_scores.png?v=3" width="33%" />
+<img src="figures/WT05_doubletRemoved_scrublet_scores.png?v=3" width="33%" /><img src="figures/WT24_doubletRemoved_scrublet_scores.png?v=3" width="33%" /><img src="figures/WT36_doubletRemoved_scrublet_scores.png?v=3" width="33%" />
+<img src="figures/WT38_doubletRemoved_scrublet_scores.png?v=3" width="33%" /><img src="figures/WT47_doubletRemoved_scrublet_scores.png?v=3" width="33%" />
 
 
 The table below summarises the number of cells before and after doublet removal for each WT replicate, along with the number of predicted doublets removed.
@@ -112,8 +112,8 @@ The final integrated dataset was used for all downstream analyses, including clu
 
 ###### And per sample 
 
-<img src="figures/umap_analyzed_Uninjured.png?v=1" width="45%" /><img src="figures/umap_analyzed_3d.png?v=1" width="45%" />
-<img src="figures/umap_analyzed_6d.png?v=1" width="45%" /><img src="figures/umap_analyzed_9d.png?v=1" width="45%" />
+<img src="figures/umap_analyzed_Uninjured.png?v=3" width="45%" /><img src="figures/umap_analyzed_3d.png?v=3" width="45%" />
+<img src="figures/umap_analyzed_6d.png?v=3" width="45%" /><img src="figures/umap_analyzed_9d.png?v=3" width="45%" />
 
 ## Clustering and cluster-level quality assessment
 
@@ -122,9 +122,9 @@ After integration and preprocessing, cells were grouped into transcriptionally d
 To ensure cluster quality, key quality control metrics (including gene complexity, total RNA counts, and mitochondrial content) were evaluated across clusters. This allowed identification of clusters with distinct quality characteristics and supported downstream interpretation of biological versus low-quality or stressed cell populations.
 
 
-![](figures/umap_allWT_clustered_leiden.png?v=1)
+![](figures/umap_allWT_clustered_leiden.png?v=3)
 
-<img src="figures/violin_allWT_clustered_QC_n_genes_by_counts.png?v=1" width="33%" /><img src="figures/violin_allWT_clustered_QC_total_counts.png?v=1" width="33%" /><img src="figures/violin_allWT_clustered_QC_pct_counts_mt.png?v=1" width="33%" />
+<img src="figures/violin_allWT_clustered_QC_n_genes_by_counts.png?v=3" width="33%" /><img src="figures/violin_allWT_clustered_QC_total_counts.png?v=3" width="33%" /><img src="figures/violin_allWT_clustered_QC_pct_counts_mt.png?v=3" width="33%" />
 
 
 
@@ -165,74 +165,74 @@ marker_genes = {
 
 #### Marker genes dot plot and feature plots 
 
-![](figures/dotplot__allWT_dotplot.png?v=1)        
+![](figures/dotplot__allWT_dotplot.png?v=3)        
 
 
-<img src="figures/umap_allWT_ACAN.png?v=1" width="33%" /><img src="figures/umap_allWT_ACP5.png?v=1" width="33%" /><img src="figures/umap_allWT_ACTA2.png?v=1" width="33%" />
+<img src="figures/umap_allWT_ACAN.png?v=3" width="33%" /><img src="figures/umap_allWT_ACP5.png?v=3" width="33%" /><img src="figures/umap_allWT_ACTA2.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_AIF1.png?v=1" width="33%" /><img src="figures/umap_allWT_ALPL.png?v=1" width="33%" /><img src="figures/umap_allWT_APOE.png?v=1" width="33%" />
+<img src="figures/umap_allWT_AIF1.png?v=3" width="33%" /><img src="figures/umap_allWT_ALPL.png?v=3" width="33%" /><img src="figures/umap_allWT_APOE.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_ATF3.png?v=1" width="33%" /><img src="figures/umap_allWT_BGLAP.png?v=1" width="33%" /><img src="figures/umap_allWT_CALCR.png?v=1" width="33%" />
+<img src="figures/umap_allWT_ATF3.png?v=3" width="33%" /><img src="figures/umap_allWT_BGLAP.png?v=3" width="33%" /><img src="figures/umap_allWT_CALCR.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_CD14.png?v=1" width="33%" /><img src="figures/umap_allWT_CD163.png?v=1" width="33%" /><img src="figures/umap_allWT_CD4.png?v=1" width="33%" />
+<img src="figures/umap_allWT_CD14.png?v=3" width="33%" /><img src="figures/umap_allWT_CD163.png?v=3" width="33%" /><img src="figures/umap_allWT_CD4.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_CD68.png?v=1" width="33%" /><img src="figures/umap_allWT_CD74.png?v=1" width="33%" /><img src="figures/umap_allWT_CD79A.png?v=1" width="33%" />
+<img src="figures/umap_allWT_CD68.png?v=3" width="33%" /><img src="figures/umap_allWT_CD74.png?v=3" width="33%" /><img src="figures/umap_allWT_CD79A.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_CD8A.png?v=1" width="33%" /><img src="figures/umap_allWT_CDH1.png?v=1" width="33%" /><img src="figures/umap_allWT_CDH5.png?v=1" width="33%" />
+<img src="figures/umap_allWT_CD8A.png?v=3" width="33%" /><img src="figures/umap_allWT_CDH1.png?v=3" width="33%" /><img src="figures/umap_allWT_CDH5.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_CNN1.png?v=1" width="33%" /><img src="figures/umap_allWT_COL17A1.png?v=1" width="33%" /><img src="figures/umap_allWT_COL1A1.png?v=1" width="33%" />
+<img src="figures/umap_allWT_CNN1.png?v=3" width="33%" /><img src="figures/umap_allWT_COL17A1.png?v=3" width="33%" /><img src="figures/umap_allWT_COL1A1.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_COL1A2.png?v=1" width="33%" /><img src="figures/umap_allWT_COL2A1.png?v=1" width="33%" /><img src="figures/umap_allWT_COL3A1.png?v=1" width="33%" />
+<img src="figures/umap_allWT_COL1A2.png?v=3" width="33%" /><img src="figures/umap_allWT_COL2A1.png?v=3" width="33%" /><img src="figures/umap_allWT_COL3A1.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_COMP.png?v=1" width="33%" /><img src="figures/umap_allWT_CSF1R.png?v=1" width="33%" /><img src="figures/umap_allWT_CSPG4.png?v=1" width="33%" />
+<img src="figures/umap_allWT_COMP.png?v=3" width="33%" /><img src="figures/umap_allWT_CSF1R.png?v=3" width="33%" /><img src="figures/umap_allWT_CSPG4.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_CTSK.png?v=1" width="33%" /><img src="figures/umap_allWT_DCN.png?v=1" width="33%" /><img src="figures/umap_allWT_DCSTAMP.png?v=1" width="33%" />
+<img src="figures/umap_allWT_CTSK.png?v=3" width="33%" /><img src="figures/umap_allWT_DCN.png?v=3" width="33%" /><img src="figures/umap_allWT_DCSTAMP.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_DES.png?v=1" width="33%" /><img src="figures/umap_allWT_DLL4.png?v=1" width="33%" /><img src="figures/umap_allWT_DMP1.png?v=1" width="33%" />
+<img src="figures/umap_allWT_DES.png?v=3" width="33%" /><img src="figures/umap_allWT_DLL4.png?v=3" width="33%" /><img src="figures/umap_allWT_DMP1.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_DUSP1.png?v=1" width="33%" /><img src="figures/umap_allWT_EDNRA.png?v=1" width="33%" /><img src="figures/umap_allWT_EFNB2.png?v=1" width="33%" />
+<img src="figures/umap_allWT_DUSP1.png?v=3" width="33%" /><img src="figures/umap_allWT_EDNRA.png?v=3" width="33%" /><img src="figures/umap_allWT_EFNB2.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_ELANE.png?v=1" width="33%" /><img src="figures/umap_allWT_EMCN.png?v=1" width="33%" /><img src="figures/umap_allWT_EPCAM.png?v=1" width="33%" />
+<img src="figures/umap_allWT_ELANE.png?v=3" width="33%" /><img src="figures/umap_allWT_EMCN.png?v=3" width="33%" /><img src="figures/umap_allWT_EPCAM.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_ERG.png?v=1" width="33%" /><img src="figures/umap_allWT_FLT1.png?v=1" width="33%" /><img src="figures/umap_allWT_FLT4.png?v=1" width="33%" />
+<img src="figures/umap_allWT_ERG.png?v=3" width="33%" /><img src="figures/umap_allWT_FLT1.png?v=3" width="33%" /><img src="figures/umap_allWT_FLT4.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_FN1.png?v=1" width="33%" /><img src="figures/umap_allWT_FOS.png?v=1" width="33%" /><img src="figures/umap_allWT_GJA5.png?v=1" width="33%" />
+<img src="figures/umap_allWT_FN1.png?v=3" width="33%" /><img src="figures/umap_allWT_FOS.png?v=3" width="33%" /><img src="figures/umap_allWT_GJA5.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_GNLY.png?v=1" width="33%" /><img src="figures/umap_allWT_HIF1A.png?v=1" width="33%" /><img src="figures/umap_allWT_IBSP.png?v=1" width="33%" />
+<img src="figures/umap_allWT_GNLY.png?v=3" width="33%" /><img src="figures/umap_allWT_HIF1A.png?v=3" width="33%" /><img src="figures/umap_allWT_IBSP.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_IL7R.png?v=1" width="33%" /><img src="figures/umap_allWT_ITGA6.png?v=1" width="33%" /><img src="figures/umap_allWT_JUN.png?v=1" width="33%" />
+<img src="figures/umap_allWT_IL7R.png?v=3" width="33%" /><img src="figures/umap_allWT_ITGA6.png?v=3" width="33%" /><img src="figures/umap_allWT_JUN.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_KCNJ8.png?v=1" width="33%" /><img src="figures/umap_allWT_KDR.png?v=1" width="33%" /><img src="figures/umap_allWT_KLRD1.png?v=1" width="33%" />
+<img src="figures/umap_allWT_KCNJ8.png?v=3" width="33%" /><img src="figures/umap_allWT_KDR.png?v=3" width="33%" /><img src="figures/umap_allWT_KLRD1.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_KRT10.png?v=1" width="33%" /><img src="figures/umap_allWT_KRT14.png?v=1" width="33%" /><img src="figures/umap_allWT_KRT16.png?v=1" width="33%" />
+<img src="figures/umap_allWT_KRT10.png?v=3" width="33%" /><img src="figures/umap_allWT_KRT14.png?v=3" width="33%" /><img src="figures/umap_allWT_KRT16.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_KRT1.png?v=1" width="33%" /><img src="figures/umap_allWT_KRT5.png?v=1" width="33%" /><img src="figures/umap_allWT_KRT6A.png?v=1" width="33%" />
+<img src="figures/umap_allWT_KRT1.png?v=3" width="33%" /><img src="figures/umap_allWT_KRT5.png?v=3" width="33%" /><img src="figures/umap_allWT_KRT6A.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_LUM.png?v=1" width="33%" /><img src="figures/umap_allWT_LYVE1.png?v=1" width="33%" /><img src="figures/umap_allWT_LYZ.png?v=1" width="33%" />
+<img src="figures/umap_allWT_LUM.png?v=3" width="33%" /><img src="figures/umap_allWT_LYVE1.png?v=3" width="33%" /><img src="figures/umap_allWT_LYZ.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_MATN1.png?v=1" width="33%" /><img src="figures/umap_allWT_MBP.png?v=1" width="33%" /><img src="figures/umap_allWT_MCAM.png?v=1" width="33%" />
+<img src="figures/umap_allWT_MATN1.png?v=3" width="33%" /><img src="figures/umap_allWT_MBP.png?v=3" width="33%" /><img src="figures/umap_allWT_MCAM.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_MKI67.png?v=1" width="33%" /><img src="figures/umap_allWT_MMP13.png?v=1" width="33%" /><img src="figures/umap_allWT_MMP2.png?v=1" width="33%" />
+<img src="figures/umap_allWT_MKI67.png?v=3" width="33%" /><img src="figures/umap_allWT_MMP13.png?v=3" width="33%" /><img src="figures/umap_allWT_MMP2.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_MMP3.png?v=1" width="33%" /><img src="figures/umap_allWT_MPO.png?v=1" width="33%" /><img src="figures/umap_allWT_MPZ.png?v=1" width="33%" />
+<img src="figures/umap_allWT_MMP3.png?v=3" width="33%" /><img src="figures/umap_allWT_MPO.png?v=3" width="33%" /><img src="figures/umap_allWT_MPZ.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_MRC1.png?v=1" width="33%" /><img src="figures/umap_allWT_MYH11.png?v=1" width="33%" /><img src="figures/umap_allWT_NFATC1.png?v=1" width="33%" />
+<img src="figures/umap_allWT_MRC1.png?v=3" width="33%" /><img src="figures/umap_allWT_MYH11.png?v=3" width="33%" /><img src="figures/umap_allWT_NFATC1.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_NR2F2.png?v=1" width="33%" /><img src="figures/umap_allWT_PAX5.png?v=1" width="33%" /><img src="figures/umap_allWT_PCNA.png?v=1" width="33%" />
+<img src="figures/umap_allWT_NR2F2.png?v=3" width="33%" /><img src="figures/umap_allWT_PAX5.png?v=3" width="33%" /><img src="figures/umap_allWT_PCNA.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_PDGFRB.png?v=1" width="33%" /><img src="figures/umap_allWT_PDGFRA.png?v=1" width="33%" /><img src="figures/umap_allWT_PDPN.png?v=1" width="33%" />
+<img src="figures/umap_allWT_PDGFRB.png?v=3" width="33%" /><img src="figures/umap_allWT_PDGFRA.png?v=3" width="33%" /><img src="figures/umap_allWT_PDPN.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_PECAM1.png?v=1" width="33%" /><img src="figures/umap_allWT_PLP1.png?v=1" width="33%" /><img src="figures/umap_allWT_POSTN.png?v=1" width="33%" />
+<img src="figures/umap_allWT_PECAM1.png?v=3" width="33%" /><img src="figures/umap_allWT_PLP1.png?v=3" width="33%" /><img src="figures/umap_allWT_POSTN.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_PROX1.png?v=1" width="33%" /><img src="figures/umap_allWT_RAMP2.png?v=1" width="33%" /><img src="figures/umap_allWT_RGS5.png?v=1" width="33%" />
+<img src="figures/umap_allWT_PROX1.png?v=3" width="33%" /><img src="figures/umap_allWT_RAMP2.png?v=3" width="33%" /><img src="figures/umap_allWT_RGS5.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_RUNX2.png?v=1" width="33%" /><img src="figures/umap_allWT_S100A8.png?v=1" width="33%" /><img src="figures/umap_allWT_S100A9.png?v=1" width="33%" />
+<img src="figures/umap_allWT_RUNX2.png?v=3" width="33%" /><img src="figures/umap_allWT_S100A8.png?v=3" width="33%" /><img src="figures/umap_allWT_S100A9.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_S100B.png?v=1" width="33%" /><img src="figures/umap_allWT_SOX10.png?v=1" width="33%" /><img src="figures/umap_allWT_SOX17.png?v=1" width="33%" />
+<img src="figures/umap_allWT_S100B.png?v=3" width="33%" /><img src="figures/umap_allWT_SOX10.png?v=3" width="33%" /><img src="figures/umap_allWT_SOX17.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_SOX9.png?v=1" width="33%" /><img src="figures/umap_allWT_SP7.png?v=1" width="33%" /><img src="figures/umap_allWT_SPP1.png?v=1" width="33%" />
+<img src="figures/umap_allWT_SOX9.png?v=3" width="33%" /><img src="figures/umap_allWT_SP7.png?v=3" width="33%" /><img src="figures/umap_allWT_SPP1.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_STMN1.png?v=1" width="33%" /><img src="figures/umap_allWT_TAGLN.png?v=1" width="33%" /><img src="figures/umap_allWT_TOP2A.png?v=1" width="33%" />
+<img src="figures/umap_allWT_STMN1.png?v=3" width="33%" /><img src="figures/umap_allWT_TAGLN.png?v=3" width="33%" /><img src="figures/umap_allWT_TOP2A.png?v=3" width="33%" />
 
-<img src="figures/umap_allWT_TP63.png?v=1" width="33%" /><img src="figures/umap_allWT_TRAC.png?v=1" width="33%" /><img src="figures/umap_allWT_VWF.png?v=1" width="33%" />
+<img src="figures/umap_allWT_TP63.png?v=3" width="33%" /><img src="figures/umap_allWT_TRAC.png?v=3" width="33%" /><img src="figures/umap_allWT_VWF.png?v=3" width="33%" />
 
