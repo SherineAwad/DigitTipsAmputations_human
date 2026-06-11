@@ -12,11 +12,21 @@ Quality control was performed separately for each WT h5ad object. Pre-filtering 
 
 Pre-filter QC metrics were visualised for each WT replicate prior to filtering. These plots show distributions of key quality metrics including total counts, number of detected genes, and mitochondrial content.
 
-<img src="figures/violin_WT01_QC_pre_violin.png?v=1" width="45%" /><img src="figures/violin_WT03_QC_pre_violin.png?v=1" width="45%" />
-<img src="figures/violin_WT04_QC_pre_violin.png?v=1" width="45%" /><img src="figures/violin_WT05_QC_pre_violin.png?v=1" width="45%" />
-<img src="figures/violin_WT24_QC_pre_violin.png?v=1" width="45%" /><img src="figures/violin_WT36_QC_pre_violin.png?v=1" width="45%" />
-<img src="figures/violin_WT38_QC_pre_violin.png?v=1" width="45%" /><img src="figures/violin_WT47_QC_pre_violin.png?v=1" width="45%" />
+<img src="figures/violin_WT01_QC_pre_violin.png?v=1" width="90%" />
 
+<img src="figures/violin_WT03_QC_pre_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT04_QC_pre_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT05_QC_pre_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT24_QC_pre_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT36_QC_pre_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT38_QC_pre_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT47_QC_pre_violin.png?v=1" width="90%" />
 
 ### Quality control filtering
 
@@ -28,11 +38,21 @@ Genes detected in fewer than 3 cells were removed, and cells with fewer than 200
 
 Post-filter QC metrics were visualised for each WT replicate after applying quality control filtering. These plots show the distributions of key quality metrics following removal of low-quality cells.
 
-<img src="figures/violin_WT01_QC_post_violin.png?v=1" width="45%" /><img src="figures/violin_WT03_QC_post_violin.png?v=1" width="45%" />
-<img src="figures/violin_WT04_QC_post_violin.png?v=1" width="45%" /><img src="figures/violin_WT05_QC_post_violin.png?v=1" width="45%" />
-<img src="figures/violin_WT24_QC_post_violin.png?v=1" width="45%" /><img src="figures/violin_WT36_QC_post_violin.png?v=1" width="45%" />
-<img src="figures/violin_WT38_QC_post_violin.png?v=1" width="45%" /><img src="figures/violin_WT47_QC_post_violin.png?v=1" width="45%" />
+<img src="figures/violin_WT01_QC_post_violin.png?v=1" width="90%" />
 
+<img src="figures/violin_WT03_QC_post_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT04_QC_post_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT05_QC_post_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT24_QC_post_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT36_QC_post_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT38_QC_post_violin.png?v=1" width="90%" />
+
+<img src="figures/violin_WT47_QC_post_violin.png?v=1" width="90%" />
 
 
 ### Doublet detection and removal
@@ -45,10 +65,10 @@ The resulting datasets contain only high-confidence single cells and were used f
 
 #### Doublet score distribution
 
-<img src="figures/WT01_doubletRemoved_scrublet_scores.png?v=1" width="45%" /><img src="figures/WT03_doubletRemoved_scrublet_scores.png?v=1" width="45%" />
-<img src="figures/WT04_doubletRemoved_scrublet_scores.png?v=1" width="45%" /><img src="figures/WT05_doubletRemoved_scrublet_scores.png?v=1" width="45%" />
-<img src="figures/WT24_doubletRemoved_scrublet_scores.png?v=1" width="45%" /><img src="figures/WT36_doubletRemoved_scrublet_scores.png?v=1" width="45%" />
-<img src="figures/WT38_doubletRemoved_scrublet_scores.png?v=1" width="45%" /><img src="figures/WT47_doubletRemoved_scrublet_scores.png?v=1" width="45%" />
+<img src="figures/WT01_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT03_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT04_doubletRemoved_scrublet_scores.png?v=1" width="33%" />
+<img src="figures/WT05_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT24_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT36_doubletRemoved_scrublet_scores.png?v=1" width="33%" />
+<img src="figures/WT38_doubletRemoved_scrublet_scores.png?v=1" width="33%" /><img src="figures/WT47_doubletRemoved_scrublet_scores.png?v=1" width="33%" />
+
 
 The table below summarises the number of cells before and after doublet removal for each WT replicate, along with the number of predicted doublets removed.
 
@@ -72,6 +92,6 @@ The combined dataset was then processed for downstream analysis, including norma
 The final integrated dataset was used for all downstream analyses, including clustering and cell state identification.
 
 
-![](figures/umap_analyzed_umap.png?v=1)
+![](figures/umap_analyzed_umap.png?v=2)
 
 

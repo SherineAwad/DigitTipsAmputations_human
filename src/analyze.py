@@ -23,7 +23,7 @@ def main():
     adata.layers["counts"] = adata.X.copy()
 
     # -------------------------
-    # HVG SELECTION (FOR PCA ONLY)
+    # HVG SELECTION
     # -------------------------
     sc.pp.highly_variable_genes(
         adata,
@@ -34,16 +34,20 @@ def main():
     print(f"[HVG] {adata.var['highly_variable'].sum()} genes selected")
 
     # -------------------------
-    # PCA ON HVGs ONLY (DO NOT SUBSET OBJECT)
+    # PCA ON HVGs ONLY (CORRECT WAY)
     # -------------------------
+    adata_pca = adata[:, adata.var["highly_variable"]].copy()
+
     sc.tl.pca(
-        adata,
+        adata_pca,
         n_comps=30,
-        use_highly_variable=True,
         svd_solver="arpack"
     )
 
-    print("[PCA] done")
+    # store back into original object
+    adata.obsm["X_pca"] = adata_pca.obsm["X_pca"]
+
+    print("[PCA] done on HVGs")
 
     # -------------------------
     # NEIGHBORS GRAPH
