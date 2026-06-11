@@ -1,5 +1,6 @@
 import scanpy as sc
 import argparse
+import os
 
 
 def main():
@@ -16,6 +17,8 @@ def main():
     adata = sc.read_h5ad(args.input).copy()
 
     print(f"[LOAD] {adata.n_obs} cells × {adata.n_vars} genes")
+
+    os.makedirs("figures", exist_ok=True)
 
     # -------------------------
     # KEEP RAW COUNTS
@@ -34,7 +37,7 @@ def main():
     print(f"[HVG] {adata.var['highly_variable'].sum()} genes selected")
 
     # -------------------------
-    # PCA ON HVGs ONLY (CORRECT WAY)
+    # PCA ON HVGs ONLY
     # -------------------------
     adata_pca = adata[:, adata.var["highly_variable"]].copy()
 
@@ -44,38 +47,40 @@ def main():
         svd_solver="arpack"
     )
 
-    # store back into original object
     adata.obsm["X_pca"] = adata_pca.obsm["X_pca"]
 
-    print("[PCA] done on HVGs")
+    print("[PCA] done")
 
     # -------------------------
-    # NEIGHBORS GRAPH
+    # NEIGHBORS + UMAP
     # -------------------------
-    sc.pp.neighbors(
-        adata,
-        use_rep="X_pca"
-    )
-
-    # -------------------------
-    # UMAP
-    # -------------------------
-    sc.tl.umap(
-        adata,
-        random_state=42
-    )
+    sc.pp.neighbors(adata, use_rep="X_pca")
+    sc.tl.umap(adata)
 
     print("[UMAP] done")
 
     # -------------------------
-    # PLOTS
+    # GLOBAL UMAP
     # -------------------------
     sc.pl.umap(
         adata,
-        color=["sample"],
-        save=f"_{args.prefix}_umap.png",
-        show=False
+        color="sample",
+        show=False,
+        save=f"_{args.prefix}_umap.png"
     )
+
+    # -------------------------
+    # PER-SAMPLE UMAP
+    # -------------------------
+    for s in adata.obs["sample"].unique():
+
+        sc.pl.umap(
+            adata[adata.obs["sample"] == s],
+            color="sample",
+            title=f"Sample: {s}",
+            show=False,
+            save=f"_{args.prefix}_umap_{s}.png"
+        )
 
     # -------------------------
     # SAVE OBJECT
