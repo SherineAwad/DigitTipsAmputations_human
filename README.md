@@ -2,7 +2,7 @@
 
 ## Data Generation (Split-pipe preprocessing)
 
-Split-pipe output was generated separately for each WT (WT01, WT03, WT04, WT05, WT24, WT36, WT38, WT47), each containing multiple conditions/time points (3d, 6d, 9d) and associated processed outputs.
+Split-pipe output was generated separately for each WT (WT01, WT03, WT04, WT05, WT24, WT36, WT38, WT47), each containing multiple conditions (uninjured, 3d, 6d, 9d) and associated processed outputs.
 
 For each WT, all corresponding samples were imported and combined into a single Scanpy AnnData object, resulting in one h5ad file per WT. Each WT was then treated independently for downstream analysis.
 
@@ -125,4 +125,114 @@ To ensure cluster quality, key quality control metrics (including gene complexit
 ![](figures/umap_allWT_clustered_leiden.png?v=1)
 
 <img src="figures/violin_allWT_clustered_QC_n_genes_by_counts.png?v=1" width="33%" /><img src="figures/violin_allWT_clustered_QC_total_counts.png?v=1" width="33%" /><img src="figures/violin_allWT_clustered_QC_pct_counts_mt.png?v=1" width="33%" />
+
+
+
+## Preliminary cell type annotation
+
+We used the following marker genes and corresponding cell types as a guide for annotation:
+
+```python
+marker_genes = {
+    "Macrophage": ["Lyz", "Cd68", "Cd14", "Csf1r", "Aif1"],
+    "Regenerative_Macrophage": ["Apoe", "Mrc1", "Cd163", "Trem2"],
+    "Neutrophil": ["S100a8", "S100a9", "Fcgr3b", "Mpo", "Elane"],
+
+    "Keratinocyte": ["Krt5", "Krt14", "Krt1", "Krt10", "Epcam", "Cdh1"],
+    "Basal_Keratinocyte": ["Krt5", "Krt14", "Tp63", "Itga6", "Col17a1"],
+    "Wound_Epidermis": ["Krt6a", "Krt16", "Fos", "Jun", "Mir21"],
+
+    "Osteoprogenitor": ["Runx2", "Sp7", "Alpl", "Col1a1"],
+    "Osteoblast": ["Bglap", "Ibsp", "Spp1", "Alpl", "Dmp1"],
+    "Osteoclast": ["Ctsk", "Acp5", "Calcr", "Nfatc1", "Dcstamp"],
+
+    "Chondrocyte": ["Sox9", "Col2a1", "Acan", "Comp", "Matn1"],
+
+    "Pericyte": ["Rgs5", "Pdgfrb", "Cspg4", "Mcam", "Kcnj8"],
+    "Smooth_Muscle": ["Acta2", "Myh11", "Tagln", "Cnn1", "Des"],
+
+    "Schwann_Cell": ["Sox10", "S100b", "Mpz", "Plp1", "Mbp"],
+
+    "T_Cell": ["Cd3d", "Cd3e", "Trac", "Cd4", "Cd8a", "Il7r"],
+    "B_Cell": ["Ms4a1", "Cd79a", "Cd74", "Ighm", "Pax5"],
+    "NK_Cell": ["Nkg7", "Gnly", "Klrd1", "Prf1"],
+
+    "Cycling_Cell": ["Mki67", "Top2a", "Pcna", "Stmn1"],
+
+    "Stress_Response": ["Fos", "Jun", "Hif1a", "Atf3", "Dusp1"]
+}
+```
+
+#### Marker genes dot plot and feature plots 
+
+![](figures/dotplot__allWT_dotplot.png?v=1)        
+
+
+<img src="figures/umap_allWT_ACAN.png?v=1" width="33%" /><img src="figures/umap_allWT_ACP5.png?v=1" width="33%" /><img src="figures/umap_allWT_ACTA2.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_AIF1.png?v=1" width="33%" /><img src="figures/umap_allWT_ALPL.png?v=1" width="33%" /><img src="figures/umap_allWT_APOE.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_ATF3.png?v=1" width="33%" /><img src="figures/umap_allWT_BGLAP.png?v=1" width="33%" /><img src="figures/umap_allWT_CALCR.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_CD14.png?v=1" width="33%" /><img src="figures/umap_allWT_CD163.png?v=1" width="33%" /><img src="figures/umap_allWT_CD4.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_CD68.png?v=1" width="33%" /><img src="figures/umap_allWT_CD74.png?v=1" width="33%" /><img src="figures/umap_allWT_CD79A.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_CD8A.png?v=1" width="33%" /><img src="figures/umap_allWT_CDH1.png?v=1" width="33%" /><img src="figures/umap_allWT_CDH5.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_CNN1.png?v=1" width="33%" /><img src="figures/umap_allWT_COL17A1.png?v=1" width="33%" /><img src="figures/umap_allWT_COL1A1.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_COL1A2.png?v=1" width="33%" /><img src="figures/umap_allWT_COL2A1.png?v=1" width="33%" /><img src="figures/umap_allWT_COL3A1.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_COMP.png?v=1" width="33%" /><img src="figures/umap_allWT_CSF1R.png?v=1" width="33%" /><img src="figures/umap_allWT_CSPG4.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_CTSK.png?v=1" width="33%" /><img src="figures/umap_allWT_DCN.png?v=1" width="33%" /><img src="figures/umap_allWT_DCSTAMP.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_DES.png?v=1" width="33%" /><img src="figures/umap_allWT_DLL4.png?v=1" width="33%" /><img src="figures/umap_allWT_DMP1.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_DUSP1.png?v=1" width="33%" /><img src="figures/umap_allWT_EDNRA.png?v=1" width="33%" /><img src="figures/umap_allWT_EFNB2.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_ELANE.png?v=1" width="33%" /><img src="figures/umap_allWT_EMCN.png?v=1" width="33%" /><img src="figures/umap_allWT_EPCAM.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_ERG.png?v=1" width="33%" /><img src="figures/umap_allWT_FLT1.png?v=1" width="33%" /><img src="figures/umap_allWT_FLT4.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_FN1.png?v=1" width="33%" /><img src="figures/umap_allWT_FOS.png?v=1" width="33%" /><img src="figures/umap_allWT_GJA5.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_GNLY.png?v=1" width="33%" /><img src="figures/umap_allWT_HIF1A.png?v=1" width="33%" /><img src="figures/umap_allWT_IBSP.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_IL7R.png?v=1" width="33%" /><img src="figures/umap_allWT_ITGA6.png?v=1" width="33%" /><img src="figures/umap_allWT_JUN.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_KCNJ8.png?v=1" width="33%" /><img src="figures/umap_allWT_KDR.png?v=1" width="33%" /><img src="figures/umap_allWT_KLRD1.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_KRT10.png?v=1" width="33%" /><img src="figures/umap_allWT_KRT14.png?v=1" width="33%" /><img src="figures/umap_allWT_KRT16.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_KRT1.png?v=1" width="33%" /><img src="figures/umap_allWT_KRT5.png?v=1" width="33%" /><img src="figures/umap_allWT_KRT6A.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_LUM.png?v=1" width="33%" /><img src="figures/umap_allWT_LYVE1.png?v=1" width="33%" /><img src="figures/umap_allWT_LYZ.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_MATN1.png?v=1" width="33%" /><img src="figures/umap_allWT_MBP.png?v=1" width="33%" /><img src="figures/umap_allWT_MCAM.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_MKI67.png?v=1" width="33%" /><img src="figures/umap_allWT_MMP13.png?v=1" width="33%" /><img src="figures/umap_allWT_MMP2.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_MMP3.png?v=1" width="33%" /><img src="figures/umap_allWT_MPO.png?v=1" width="33%" /><img src="figures/umap_allWT_MPZ.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_MRC1.png?v=1" width="33%" /><img src="figures/umap_allWT_MYH11.png?v=1" width="33%" /><img src="figures/umap_allWT_NFATC1.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_NR2F2.png?v=1" width="33%" /><img src="figures/umap_allWT_PAX5.png?v=1" width="33%" /><img src="figures/umap_allWT_PCNA.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_PDGFRB.png?v=1" width="33%" /><img src="figures/umap_allWT_PDGFRA.png?v=1" width="33%" /><img src="figures/umap_allWT_PDPN.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_PECAM1.png?v=1" width="33%" /><img src="figures/umap_allWT_PLP1.png?v=1" width="33%" /><img src="figures/umap_allWT_POSTN.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_PROX1.png?v=1" width="33%" /><img src="figures/umap_allWT_RAMP2.png?v=1" width="33%" /><img src="figures/umap_allWT_RGS5.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_RUNX2.png?v=1" width="33%" /><img src="figures/umap_allWT_S100A8.png?v=1" width="33%" /><img src="figures/umap_allWT_S100A9.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_S100B.png?v=1" width="33%" /><img src="figures/umap_allWT_SOX10.png?v=1" width="33%" /><img src="figures/umap_allWT_SOX17.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_SOX9.png?v=1" width="33%" /><img src="figures/umap_allWT_SP7.png?v=1" width="33%" /><img src="figures/umap_allWT_SPP1.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_STMN1.png?v=1" width="33%" /><img src="figures/umap_allWT_TAGLN.png?v=1" width="33%" /><img src="figures/umap_allWT_TOP2A.png?v=1" width="33%" />
+
+<img src="figures/umap_allWT_TP63.png?v=1" width="33%" /><img src="figures/umap_allWT_TRAC.png?v=1" width="33%" /><img src="figures/umap_allWT_VWF.png?v=1" width="33%" />
 
