@@ -150,7 +150,7 @@ marker_genes = {
     "Pericyte": ["Rgs5", "Pdgfrb", "Cspg4", "Mcam", "Kcnj8"],
     "Smooth_Muscle": ["Acta2", "Myh11", "Tagln", "Cnn1", "Des"],
 
-    "Schwann_Cell": ["Sox10", "S100b", "Mpz", "Plp1", "Mbp"],
+    "Schwann": ["Sox10", "S100b", "Mpz", "Plp1", "Mbp"],
 
     "T_Cell": ["Cd3d", "Cd3e", "Trac", "Cd4", "Cd8a", "Il7r"],
     "B_Cell": ["Ms4a1", "Cd79a", "Cd74", "Ighm", "Pax5"],
@@ -161,7 +161,7 @@ marker_genes = {
 
 #### Marker genes dot plot and feature plots 
 
-![](figures/figures/dotplot__allWT_clustered_markers_dotplot.png?v=1) 
+![](figures/dotplot__allWT_clustered_markers_dotplot.png?v=1) 
 
 <img src="figures/umap_allWT_S100A9.png?v=6" width="33%" /><img src="figures/umap_allWT_COL1A1.png?v=6" width="33%" /><img src="figures/umap_allWT_CDH1.png?v=6" width="33%" />
 
@@ -203,4 +203,11 @@ marker_genes = {
 
 <img src="figures/umap_allWT_TRAC.png?v=6" width="33%" /><img src="figures/umap_allWT_TAGLN.png?v=6" width="33%" /><img src="figures/umap_allWT_RUNX2.png?v=6" width="33%" />
 
+
+
+## Preliminary Annotations 
+
+
+![](figures/umap_allWT_annotated_celltype.png?v=1)
+![](figures/umap_allWT_annotated_celltypeON.png?v=1)
 
