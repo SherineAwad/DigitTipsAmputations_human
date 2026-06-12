@@ -203,13 +203,4 @@ marker_genes = {
 
 <img src="figures/umap_allWT_TRAC.png?v=6" width="33%" /><img src="figures/umap_allWT_TAGLN.png?v=6" width="33%" /><img src="figures/umap_allWT_RUNX2.png?v=6" width="33%" />
 
-<img src="figures/umap_allWT_FLT1.png?v=6" width="33%" /><img src="figures/umap_allWT_LYVE1.png?v=6" width="33%" /><img src="figures/umap_allWT_DCN.png?v=6" width="33%" />
-
-<img src="figures/umap_allWT_COL3A1.png?v=6" width="33%" /><img src="figures/umap_allWT_POSTN.png?v=6" width="33%" /><img src="figures/umap_allWT_COL1A2.png?v=6" width="33%" />
-
-<img src="figures/umap_allWT_FLT4.png?v=6" width="33%" /><img src="figures/umap_allWT_ERG.png?v=6" width="33%" /><img src="figures/umap_allWT_PROX1.png?v=6" width="33%" />
-
-<img src="figures/umap_allWT_MMP2.png?v=6" width="33%" /><img src="figures/umap_allWT_NR2F2.png?v=6" width="33%" />
-
-
 
