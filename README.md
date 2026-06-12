@@ -134,28 +134,27 @@ We used the following marker genes and corresponding cell types as a guide for a
 
 ```python
 marker_genes = {
-    "Macrophage": ["Lyz", "Cd68", "Cd14", "Csf1r", "Aif1"],
-    "Regenerative_Macrophage": ["Apoe", "Mrc1", "Cd163", "Trem2"],
-    "Neutrophil": ["S100a8", "S100a9", "Fcgr3b", "Mpo", "Elane"],
+    "Macrophage": ["LYZ", "CD68", "CD14", "CSF1R", "AIF1"],
+    "Regenerative_Macrophage": ["APOE", "MRC1", "CD163", "TREM2"],
+    "Neutrophil": ["S100A8", "S100A9", "FCGR3B", "MPO", "ELANE"],
 
-    "Keratinocyte": ["Krt5", "Krt14", "Krt1", "Krt10", "Epcam", "Cdh1"],
-    "Basal_Keratinocyte": ["Krt5", "Krt14", "Tp63", "Itga6", "Col17a1"],
+    "Keratinocyte": ["KRT5", "KRT14", "KRT1", "KRT10", "EPCAM", "CDH1"],
+    "Basal_Keratinocyte": ["KRT5", "KRT14", "TP63", "ITGA6", "COL17A1"],
 
-    "Osteoprogenitor": ["Runx2", "Sp7", "Alpl", "Col1a1"],
-    "Osteoblast": ["Bglap", "Ibsp", "Spp1", "Alpl", "Dmp1"],
-    "Osteoclast": ["Ctsk", "Acp5", "Calcr", "Nfatc1", "Dcstamp"],
+    "Osteoprogenitor": ["RUNX2", "SP7", "ALPL", "COL1A1"],
+    "Osteoblast": ["BGLAP", "IBSP", "SPP1", "ALPL", "DMP1"],
+    "Osteoclast": ["CTSK", "ACP5", "CALCR", "NFATC1", "DCSTAMP"],
 
-    "Chondrocyte": ["Sox9", "Col2a1", "Acan", "Comp", "Matn1"],
+    "Chondrocyte": ["SOX9", "COL2A1", "ACAN", "COMP", "MATN1"],
 
-    "Pericyte": ["Rgs5", "Pdgfrb", "Cspg4", "Mcam", "Kcnj8"],
-    "Smooth_Muscle": ["Acta2", "Myh11", "Tagln", "Cnn1", "Des"],
+    "Pericyte": ["RGS5", "PDGFRB", "CSPG4", "MCAM", "KCNJ8"],
+    "Smooth_Muscle": ["ACTA2", "MYH11", "TAGLN", "CNN1", "DES"],
 
-    "Schwann": ["Sox10", "S100b", "Mpz", "Plp1", "Mbp"],
+    "Schwann": ["SOX10", "S100B", "MPZ", "PLP1", "MBP"],
 
-    "T_Cell": ["Cd3d", "Cd3e", "Trac", "Cd4", "Cd8a", "Il7r"],
-    "B_Cell": ["Ms4a1", "Cd79a", "Cd74", "Ighm", "Pax5"],
-    "NK_Cell": ["Nkg7", "Gnly", "Klrd1", "Prf1"],
-
+    "T_Cell": ["CD3D", "CD3E", "TRAC", "CD4", "CD8A", "IL7R"],
+    "B_Cell": ["MS4A1", "CD79A", "CD74", "IGHM", "PAX5"],
+    "NK_Cell": ["NKG7", "GNLY", "KLRD1", "PRF1"],
 }
 ```
 
