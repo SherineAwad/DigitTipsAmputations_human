@@ -173,7 +173,7 @@ marker_genes = {
 
 #### Marker genes dot plot and feature plots 
 
-![](figures/dotplot__allWT_clustered_markers_dotplot.png?v=1) 
+![](figures/dotplot__allWT_clustered_markers_dotplot.png?v=2) 
 
 <img src="figures/umap_allWT_S100A9.png?v=6" width="33%" /><img src="figures/umap_allWT_COL1A1.png?v=6" width="33%" /><img src="figures/umap_allWT_CDH1.png?v=6" width="33%" />
 
@@ -216,6 +216,7 @@ marker_genes = {
 <img src="figures/umap_allWT_TRAC.png?v=6" width="33%" /><img src="figures/umap_allWT_TAGLN.png?v=6" width="33%" /><img src="figures/umap_allWT_RUNX2.png?v=6" width="33%" />
 
 
+<img src="figures/umap_allWT_PDGFRA.png?v=6" width="33%" /> <img src="figures/umap_allWT_PRRX1.png?v=6" width="33%" />
 
 ## Preliminary Annotations 
 
