@@ -17,7 +17,6 @@ def ensure_qc_vars(adata):
 
     gene_names = adata.var["gene_name"].astype(str)
 
-    # MT + ribo from gene symbols (CORRECT)
     adata.var["mt"] = gene_names.str.upper().str.startswith("MT-")
     adata.var["ribo"] = gene_names.str.upper().str.startswith(("RPS", "RPL"))
 
@@ -33,9 +32,13 @@ def ensure_qc_vars(adata):
 # ----------------------------
 def filter_cells(adata, args):
 
+    before = adata.n_obs
+
     sc.pp.filter_cells(adata, min_genes=args.min_genes)
     sc.pp.filter_cells(adata, min_counts=args.min_counts)
     sc.pp.filter_genes(adata, min_cells=args.min_cells_gene)
+
+    after_basic = adata.n_obs
 
     adata = adata[
         (adata.obs["n_genes_by_counts"] >= args.min_genes_cell) &
@@ -43,6 +46,14 @@ def filter_cells(adata, args):
         (adata.obs["total_counts"] <= args.max_counts) &
         (adata.obs["pct_counts_mt"] <= args.max_mt)
     ].copy()
+
+    final = adata.n_obs
+
+    print(f"[FILTER STATS]")
+    print(f"  Start cells        : {before}")
+    print(f"  After basic filter : {after_basic}")
+    print(f"  Final cells        : {final}")
+    print(f"  Removed total      : {before - final}")
 
     return adata
 
