@@ -70,6 +70,19 @@ Post-filter QC metrics were visualised for each WT replicate after applying qual
 ###### WT47
 <img src="figures/violin_WT47_QC_post_violin.png?v=4" width="90%" />
 
+##### Before and after filtering stats 
+
+| Sample | Start cells | Final cells | Removed total |
+|--------|------------:|------------:|--------------:|
+| WT01   | 8875        | 8637        | 238           |
+| WT03   | 8697        | 8501        | 196           |
+| WT04   | 8769        | 8398        | 371           |
+| WT05   | 8727        | 8521        | 206           |
+| WT24   | 8815        | 8550        | 265           |
+| WT36   | 8596        | 8323        | 273           |
+| WT38   | 8043        | 7793        | 250           |
+| WT47   | 8196        | 7839        | 357           |
+
 
 ### Doublet detection and removal
 
