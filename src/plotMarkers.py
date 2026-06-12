@@ -24,44 +24,27 @@ with open(args.markers) as f:
 
 adata = sc.read_h5ad(args.input)
 
-# ----------------------------------
-# FIX: USE GENE SYMBOLS AS var_names
-# ----------------------------------
-adata.var_names = adata.var["gene_name"].astype(str)
-adata.var_names_make_unique()
-
 # Collect all unique genes
 all_genes = []
 for genes in marker_genes.values():
     all_genes.extend(genes)
+
 all_genes = list(set(all_genes))
 
-# Filter and warn about missing genes
+# FIX: match against gene symbols (NOT var_names)
 valid_genes = []
+
 for gene in all_genes:
-    if gene in adata.var_names:
+    if gene in adata.var["gene_name"].values:
         valid_genes.append(gene)
     else:
         print(f"WARNING: {gene} not found in dataset - skipping")
 
-# Feature plot for each gene (gene name only in filename)
+# Feature plots
 for gene in valid_genes:
     sc.pl.umap(
         adata,
         color=gene,
+        gene_symbols="gene_name",   # show gene symbols
         save=f"_{args.prefix}_{gene}.png"
     )
-
-# Dotplot (uses full marker_genes dict with celltypes)
-filtered_marker_genes = {}
-for celltype, genes in marker_genes.items():
-    filtered_genes = [g for g in genes if g in adata.var_names]
-    if filtered_genes:
-        filtered_marker_genes[celltype] = filtered_genes
-
-sc.pl.dotplot(
-    adata,
-    filtered_marker_genes,
-    groupby="leiden",
-    save=f"_{args.prefix}_dotplot.png"
-)
