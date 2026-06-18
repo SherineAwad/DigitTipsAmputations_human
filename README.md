@@ -175,99 +175,231 @@ marker_genes = {
 
 ![](figures/dotplot__allWT_clustered_markers_dotplot.png?v=2) 
 
-<img src="figures/umap_allWT_LRRC17.png?v=7" width="33%" /><img src="figures/umap_allWT_IBSP.png?v=7" width="33%" /><img src="figures/umap_allWT_PDIA5.png?v=7" width="33%" />
-<img src="figures/umap_allWT_FAM20A.png?v=7" width="33%" /><img src="figures/umap_allWT_FBN2.png?v=7" width="33%" /><img src="figures/umap_allWT_CSGALNACT1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_PHLDB2.png?v=7" width="33%" /><img src="figures/umap_allWT_CTXN1.png?v=7" width="33%" /><img src="figures/umap_allWT_PODNL1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_SORCS2.png?v=7" width="33%" /><img src="figures/umap_allWT_ARSI.png?v=7" width="33%" /><img src="figures/umap_allWT_CCDC167.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ADAM12.png?v=7" width="33%" /><img src="figures/umap_allWT_PAFAH1B3.png?v=7" width="33%" /><img src="figures/umap_allWT_NNMT.png?v=7" width="33%" />
-<img src="figures/umap_allWT_PYCR1.png?v=7" width="33%" /><img src="figures/umap_allWT_PRKG2.png?v=7" width="33%" /><img src="figures/umap_allWT_BCAT1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CDKN2B.png?v=7" width="33%" /><img src="figures/umap_allWT_B4GALT2.png?v=7" width="33%" /><img src="figures/umap_allWT_C1QTNF3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_COMMD5.png?v=7" width="33%" /><img src="figures/umap_allWT_PRSS35.png?v=7" width="33%" /><img src="figures/umap_allWT_EPHA3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_GRB14.png?v=7" width="33%" /><img src="figures/umap_allWT_PYGB.png?v=7" width="33%" /><img src="figures/umap_allWT_TTLL5.png?v=7" width="33%" />
-<img src="figures/umap_allWT_AMACR.png?v=7" width="33%" /><img src="figures/umap_allWT_DDAH1.png?v=7" width="33%" /><img src="figures/umap_allWT_FBLIM1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_WDR6.png?v=7" width="33%" /><img src="figures/umap_allWT_WRB.png?v=7" width="33%" /><img src="figures/umap_allWT_SERINC2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ANGPT1.png?v=7" width="33%" /><img src="figures/umap_allWT_FA H.png?v=7" width="33%" /><img src="figures/umap_allWT_OBSL1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ARMCX4.png?v=7" width="33%" /><img src="figures/umap_allWT_METRN.png?v=7" width="33%" /><img src="figures/umap_allWT_CUL7.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ADGRL3.png?v=7" width="33%" /><img src="figures/umap_allWT_ZNF354C.png?v=7" width="33%" /><img src="figures/umap_allWT_WWP2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_HOTAIRM1.png?v=7" width="33%" /><img src="figures/umap_allWT_THEM6.png?v=7" width="33%" /><img src="figures/umap_allWT_ERMP1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_RAB38.png?v=7" width="33%" /><img src="figures/umap_allWT_CCN5.png?v=7" width="33%" /><img src="figures/umap_allWT_ADAM19.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CACNA1C.png?v=7" width="33%" /><img src="figures/umap_allWT_GJB5.png?v=7" width="33%" /><img src="figures/umap_allWT_MYO7A.png?v=7" width="33%" />
-<img src="figures/umap_allWT_HEBP2.png?v=7" width="33%" /><img src="figures/umap_allWT_GUCA1A.png?v=7" width="33%" /><img src="figures/umap_allWT_SEC16B.png?v=7" width="33%" />
-<img src="figures/umap_allWT_NOL3.png?v=7" width="33%" /><img src="figures/umap_allWT_MATN3.png?v=7" width="33%" /><img src="figures/umap_allWT_GAS2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CAD.png?v=7" width="33%" /><img src="figures/umap_allWT_CCDC8.png?v=7" width="33%" /><img src="figures/umap_allWT_FBXW4.png?v=7" width="33%" />
-<img src="figures/umap_allWT_SMYD3.png?v=7" width="33%" /><img src="figures/umap_allWT_L3HYPDH.png?v=7" width="33%" /><img src="figures/umap_allWT_SH3RF1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_TMEFF1.png?v=7" width="33%" /><img src="figures/umap_allWT_IGDCC4.png?v=7" width="33%" /><img src="figures/umap_allWT_CPZ.png?v=7" width="33%" />
-<img src="figures/umap_allWT_DIP2A.png?v=7" width="33%" /><img src="figures/umap_allWT_CERS6.png?v=7" width="33%" /><img src="figures/umap_allWT_PTGES3L.png?v=7" width="33%" />
-<img src="figures/umap_allWT_RBMX2.png?v=7" width="33%" /><img src="figures/umap_allWT_BCL9.png?v=7" width="33%" /><img src="figures/umap_allWT_HSPB6.png?v=7" width="33%" />
-<img src="figures/umap_allWT_PRICKLE1.png?v=7" width="33%" /><img src="figures/umap_allWT_GJB3.png?v=7" width="33%" /><img src="figures/umap_allWT_CAMK4.png?v=7" width="33%" />
-<img src="figures/umap_allWT_IMPA2.png?v=7" width="33%" /><img src="figures/umap_allWT_DZIP1L.png?v=7" width="33%" /><img src="figures/umap_allWT_PHETA2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_GPER1.png?v=7" width="33%" /><img src="figures/umap_allWT_BNC2.png?v=7" width="33%" /><img src="figures/umap_allWT_RELN.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CDKN2A.png?v=7" width="33%" /><img src="figures/umap_allWT_MYH10.png?v=7" width="33%" /><img src="figures/umap_allWT_FAM118A.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CAPN6.png?v=7" width="33%" /><img src="figures/umap_allWT_DTX4.png?v=7" width="33%" /><img src="figures/umap_allWT_GREM1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_FHOD3.png?v=7" width="33%" /><img src="figures/umap_allWT_TBC1D16.png?v=7" width="33%" /><img src="figures/umap_allWT_TMTC4.png?v=7" width="33%" />
-<img src="figures/umap_allWT_BCL11B.png?v=7" width="33%" /><img src="figures/umap_allWT_UCN2.png?v=7" width="33%" /><img src="figures/umap_allWT_SLC24A3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_AJUBA.png?v=7" width="33%" /><img src="figures/umap_allWT_LRRC75B.png?v=7" width="33%" /><img src="figures/umap_allWT_DYNC1I1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_LCA5L.png?v=7" width="33%" /><img src="figures/umap_allWT_FBXO36.png?v=7" width="33%" /><img src="figures/umap_allWT_ASPHD2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_GALE.png?v=7" width="33%" /><img src="figures/umap_allWT_YDJC.png?v=7" width="33%" /><img src="figures/umap_allWT_CPXM2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_EFNA4.png?v=7" width="33%" /><img src="figures/umap_allWT_TADA2A.png?v=7" width="33%" /><img src="figures/umap_allWT_JPH2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_KCNJ15.png?v=7" width="33%" /><img src="figures/umap_allWT_ETV4.png?v=7" width="33%" /><img src="figures/umap_allWT_SEMA4F.png?v=7" width="33%" />
-<img src="figures/umap_allWT_AKAP12.png?v=7" width="33%" /><img src="figures/umap_allWT_SERP2.png?v=7" width="33%" /><img src="figures/umap_allWT_SMARCA1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_COL9A2.png?v=7" width="33%" /><img src="figures/umap_allWT_PLEKHG4.png?v=7" width="33%" /><img src="figures/umap_allWT_PLA1A.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CPA6.png?v=7" width="33%" /><img src="figures/umap_allWT_CNN1.png?v=7" width="33%" /><img src="figures/umap_allWT_MPPED2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_TCF7.png?v=7" width="33%" /><img src="figures/umap_allWT_STK26.png?v=7" width="33%" /> <img src="figures/umap_allWT_CEBPD.png?v=7" width="33%" />
-<img src="figures/umap_allWT_BCL7A.png?v=7" width="33%" /><img src="figures/umap_allWT_SLITRK6.png?v=7" width="33%" /><img src="figures/umap_allWT_ANK3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_NPR3.png?v=7" width="33%" /><img src="figures/umap_allWT_COL24A1.png?v=7" width="33%" /><img src="figures/umap_allWT_WNT16.png?v=7" width="33%" />
-<img src="figures/umap_allWT_GRIA3.png?v=7" width="33%" /><img src="figures/umap_allWT_TMEM30B.png?v=7" width="33%" /><img src="figures/umap_allWT_HS3ST3B1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ZNF518B.png?v=7" width="33%" /><img src="figures/umap_allWT_LRCH2.png?v=7" width="33%" /><img src="figures/umap_allWT_ADAMTSL3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_RCOR2.png?v=7" width="33%" /><img src="figures/umap_allWT_COLQ.png?v=7" width="33%" /><img src="figures/umap_allWT_NELL2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_HP.png?v=7" width="33%" /><img src="figures/umap_allWT_WBSCR17.png?v=7" width="33%" /><img src="figures/umap_allWT_GPRC5C.png?v=7" width="33%" />
-<img src="figures/umap_allWT_LY75.png?v=7" width="33%" /><img src="figures/umap_allWT_PAK3.png?v=7" width="33%" /><img src="figures/umap_allWT_MORC4.png?v=7" width="33%" />
-<img src="figures/umap_allWT_SEMA5A.png?v=7" width="33%" /><img src="figures/umap_allWT_SUPT3H.png?v=7" width="33%" /><img src="figures/umap_allWT_AFF3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_FOXF2.png?v=7" width="33%" /><img src="figures/umap_allWT_MMP16.png?v=7" width="33%" /><img src="figures/umap_allWT_ADAMTS16.png?v=7" width="33%" />
-<img src="figures/umap_allWT_OLFML1.png?v=7" width="33%" /><img src="figures/umap_allWT_UNC5C.png?v=7" width="33%" /><img src="figures/umap_allWT_ENO3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CXADR.png?v=7" width="33%" /><img src="figures/umap_allWT_GPR173.png?v=7" width="33%" /><img src="figures/umap_allWT_RAB27B.png?v=7" width="33%" />
-<img src="figures/umap_allWT_FARP2.png?v=7" width="33%" /><img src="figures/umap_allWT_GALNT3.png?v=7" width="33%" /><img src="figures/umap_allWT_STRA6.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ANO1.png?v=7" width="33%" /><img src="figures/umap_allWT_COL25A1.png?v=7" width="33%" /><img src="figures/umap_allWT_BDKRB1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_MOXD1.png?v=7" width="33%" /><img src="figures/umap_allWT_PAMR1.png?v=7" width="33%" /><img src="figures/umap_allWT_GPR27.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ADGRG6.png?v=7" width="33%" /><img src="figures/umap_allWT_PLPP3.png?v=7" width="33%" /><img src="figures/umap_allWT_BMP3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CCBE1.png?v=7" width="33%" /><img src="figures/umap_allWT_TMEM151A.png?v=7" width="33%" /><img src="figures/umap_allWT_CUL9.png?v=7" width="33%" />
-<img src="figures/umap_allWT_SERPINA3.png?v=7" width="33%" /><img src="figures/umap_allWT_PTPRT.png?v=7" width="33%" /><img src="figures/umap_allWT_CHST1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CPNE4.png?v=7" width="33%" /><img src="figures/umap_allWT_PANK1.png?v=7" width="33%" /><img src="figures/umap_allWT_TNFAIP8L3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_SCRN1.png?v=7" width="33%" /><img src="figures/umap_allWT_CBR2.png?v=7" width="33%" /><img src="figures/umap_allWT_HPGD.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CHADL.png?v=7" width="33%" /><img src="figures/umap_allWT_FAT3.png?v=7" width="33%" /><img src="figures/umap_allWT_WNT7B.png?v=7" width="33%" />
-<img src="figures/umap_allWT_PAQR6.png?v=7" width="33%" /><img src="figures/umap_allWT_GPR176.png?v=7" width="33%" /><img src="figures/umap_allWT_ZNF185.png?v=7" width="33%" />
-<img src="figures/umap_allWT_COL9A1.png?v=7" width="33%" /><img src="figures/umap_allWT_STC2.png?v=7" width="33%" /><img src="figures/umap_allWT_ANGPT4.png?v=7" width="33%" />
-<img src="figures/umap_allWT_PI15.png?v=7" width="33%" /><img src="figures/umap_allWT_PTGS2.png?v=7" width="33%" /><img src="figures/umap_allWT_STMN1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_H1-5.png?v=7" width="33%" /><img src="figures/umap_allWT_WIF1.png?v=7" width="33%" /><img src="figures/umap_allWT_MEST.png?v=7" width="33%" />
-<img src="figures/umap_allWT_TNN.png?v=7" width="33%" /><img src="figures/umap_allWT_TOP2A.png?v=7" width="33%" /><img src="figures/umap_allWT_POSTN.png?v=7" width="33%" />
-<img src="figures/umap_allWT_IGFBP3.png?v=7" width="33%" /><img src="figures/umap_allWT_CXCL14.png?v=7" width="33%" /><img src="figures/umap_allWT_CKS2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_BIRC5.png?v=7" width="33%" /><img src="figures/umap_allWT_MMP13.png?v=7" width="33%" /><img src="figures/umap_allWT_SMC2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_PCLAF.png?v=7" width="33%" /><img src="figures/umap_allWT_CCK.png?v=7" width="33%" /><img src="figures/umap_allWT_ITM2A.png?v=7" width="33%" />
-<img src="figures/umap_allWT_FNDC1.png?v=7" width="33%" /><img src="figures/umap_allWT_CENPF.png?v=7" width="33%" /><img src="figures/umap_allWT_ASPN.png?v=7" width="33%" />
-<img src="figures/umap_allWT_HMGB2.png?v=7" width="33%" /><img src="figures/umap_allWT_ITGBL1.png?v=7" width="33%" /><img src="figures/umap_allWT_CDK1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_H2AZ1.png?v=7" width="33%" /><img src="figures/umap_allWT_MKI67.png?v=7" width="33%" /><img src="figures/umap_allWT_APOD.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CXCL1.png?v=7" width="33%" /><img src="figures/umap_allWT_PRC1.png?v=7" width="33%" /><img src="figures/umap_allWT_TUBB.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ALPL.png?v=7" width="33%" /><img src="figures/umap_allWT_OMD.png?v=7" width="33%" /><img src="figures/umap_allWT_CTHRC1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CENPA.png?v=7" width="33%" /><img src="figures/umap_allWT_CCNB2.png?v=7" width="33%" /><img src="figures/umap_allWT_RGS3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_THBS1.png?v=7" width="33%" /><img src="figures/umap_allWT_CXCL2.png?v=7" width="33%" /><img src="figures/umap_allWT_TNFAIP2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_TAC1.png?v=7" width="33%" /><img src="figures/umap_allWT_FBLN1.png?v=7" width="33%" /><img src="figures/umap_allWT_IGF1.png?v=7" width="33%" />
-<img src="figures/umap_allWT_SFRP2.png?v=7" width="33%" /><img src="figures/umap_allWT_TUBA1B.png?v=7" width="33%" /><img src="figures/umap_allWT_SPC24.png?v=7" width="33%" />
-<img src="figures/umap_allWT_IGFBP4.png?v=7" width="33%" /><img src="figures/umap_allWT_RBP4.png?v=7" width="33%" /><img src="figures/umap_allWT_THBS2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_VCAN.png?v=7" width="33%" /><img src="figures/umap_allWT_AEBP1.png?v=7" width="33%" /><img src="figures/umap_allWT_CKS1B.png?v=7" width="33%" />
-<img src="figures/umap_allWT_MASP1.png?v=7" width="33%" /><img src="figures/umap_allWT_TUBB4B.png?v=7" width="33%" /><img src="figures/umap_allWT_MGP.png?v=7" width="33%" />
-<img src="figures/umap_allWT_COL12A1.png?v=7" width="33%" /><img src="figures/umap_allWT_CDCA8.png?v=7" width="33%" /><img src="figures/umap_allWT_SELENOH.png?v=7" width="33%" />
-<img src="figures/umap_allWT_TNC.png?v=7" width="33%" /><img src="figures/umap_allWT_MFAP5.png?v=7" width="33%" /><img src="figures/umap_allWT_TPX2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_UBE2C.png?v=7" width="33%" /><img src="figures/umap_allWT_SMOC2.png?v=7" width="33%" /><img src="figures/umap_allWT_CENPE.png?v=7" width="33%" />
-<img src="figures/umap_allWT_GP X3.png?v=7" width="33%" /><img src="figures/umap_allWT_HMMR.png?v=7" width="33%" /><img src="figures/umap_allWT_STMN2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_IGFBP2.png?v=7" width="33%" /><img src="figures/umap_allWT_WNT5A.png?v=7" width="33%" /><img src="figures/umap_allWT_SERPINE2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CHI3L1.png?v=7" width="33%" /><img src="figures/umap_allWT_FIBIN.png?v=7" width="33%" /><img src="figures/umap_allWT_IGFBP5.png?v=7" width="33%" />
-<img src="figures/umap_allWT_RARRES2.png?v=7" width="33%" /><img src="figures/umap_allWT_DCNC.png?v=7" width="33%" /><img src="figures/umap_allWT_PTN.png?v=7" width="33%" />
-<img src="figures/umap_allWT_ELN.png?v=7" width="33%" /><img src="figures/umap_allWT_TIMP1.png?v=7" width="33%" /><img src="figures/umap_allWT_S100A4.png?v=7" width="33%" />
-<img src="figures/umap_allWT_IFITM1.png?v=7" width="33%" /><img src="figures/umap_allWT_SCARA5.png?v=7" width="33%" /><img src="figures/umap_allWT_PAPPA2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CCL2.png?v=7" width="33%" /><img src="figures/umap_allWT_SERPING1.png?v=7" width="33%" /><img src="figures/umap_allWT_OGN.png?v=7" width="33%" />
-<img src="figures/umap_allWT_NUPR1.png?v=7" width="33%" /><img src="figures/umap_allWT_PLPP3.png?v=7" width="33%" /><img src="figures/umap_allWT_PTX3.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CRLF1.png?v=7" width="33%" /><img src="figures/umap_allWT_NSG1.png?v=7" width="33%" /><img src="figures/umap_allWT_H2AZ2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_GPM6B.png?v=7" width="33%" /><img src="figures/umap_allWT_COL6A3.png?v=7" width="33%" /><img src="figures/umap_allWT_DIO2.png?v=7" width="33%" />
+<img src="figures/umap_allWT_ADGRL3.png?v=7" width="33%" /><img src="figures/umap_allWT_WNT5A.png?v=7" width="33%" /><img src="figures/umap_allWT_PRICKLE1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_TNC.png?v=7" width="33%" /><img src="figures/umap_allWT_SEMA5A.png?v=7" width="33%" /><img src="figures/umap_allWT_MPPED2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_IGFBP4.png?v=7" width="33%" /><img src="figures/umap_allWT_CACNA1C.png?v=7" width="33%" /><img src="figures/umap_allWT_COL24A1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_SMARCA1.png?v=7" width="33%" /><img src="figures/umap_allWT_SUPT3H.png?v=7" width="33%" /><img src="figures/umap_allWT_CERS6.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_FARP2.png?v=7" width="33%" /><img src="figures/umap_allWT_SH3RF1.png?v=7" width="33%" /><img src="figures/umap_allWT_SMYD3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_DIP2A.png?v=7" width="33%" /><img src="figures/umap_allWT_PLPP3.png?v=7" width="33%" /><img src="figures/umap_allWT_PDGFRB.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_H2AZ2.png?v=7" width="33%" /><img src="figures/umap_allWT_TTLL5.png?v=7" width="33%" /><img src="figures/umap_allWT_SLC24A3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_THBS1.png?v=7" width="33%" /><img src="figures/umap_allWT_MYH10.png?v=7" width="33%" /><img src="figures/umap_allWT_ARMCX4.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_COL6A3.png?v=7" width="33%" /><img src="figures/umap_allWT_COL12A1.png?v=7" width="33%" /><img src="figures/umap_allWT_TUBB.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_FBLN1.png?v=7" width="33%" /><img src="figures/umap_allWT_MMP16.png?v=7" width="33%" /><img src="figures/umap_allWT_NFATC1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_VCAN.png?v=7" width="33%" /><img src="figures/umap_allWT_AEBP1.png?v=7" width="33%" /><img src="figures/umap_allWT_RUNX2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_FBXW4.png?v=7" width="33%" /><img src="figures/umap_allWT_PRRX1.png?v=7" width="33%" /><img src="figures/umap_allWT_MORC4.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_DDAH1.png?v=7" width="33%" /><img src="figures/umap_allWT_AFF3.png?v=7" width="33%" /><img src="figures/umap_allWT_STMN1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PDGFRA.png?v=7" width="33%" /><img src="figures/umap_allWT_UNC5C.png?v=7" width="33%" /><img src="figures/umap_allWT_FBN2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_TMEFF1.png?v=7" width="33%" /><img src="figures/umap_allWT_WWP2.png?v=7" width="33%" /><img src="figures/umap_allWT_BNC2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_TBC1D16.png?v=7" width="33%" /><img src="figures/umap_allWT_GPR176.png?v=7" width="33%" /><img src="figures/umap_allWT_BCL9.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_DZIP1L.png?v=7" width="33%" /><img src="figures/umap_allWT_BCAT1.png?v=7" width="33%" /><img src="figures/umap_allWT_SERPINE2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_IGFBP3.png?v=7" width="33%" /><img src="figures/umap_allWT_SCRN1.png?v=7" width="33%" /><img src="figures/umap_allWT_PDIA5.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_COL1A1.png?v=7" width="33%" /><img src="figures/umap_allWT_ADAM12.png?v=7" width="33%" /><img src="figures/umap_allWT_CPXM2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_IGFBP5.png?v=7" width="33%" /><img src="figures/umap_allWT_ELN.png?v=7" width="33%" /><img src="figures/umap_allWT_STK26.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_MEST.png?v=7" width="33%" /><img src="figures/umap_allWT_TUBB4B.png?v=7" width="33%" /><img src="figures/umap_allWT_LRCH2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CSPG4.png?v=7" width="33%" /><img src="figures/umap_allWT_GPR173.png?v=7" width="33%" /><img src="figures/umap_allWT_CTSK.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_WIF1.png?v=7" width="33%" /><img src="figures/umap_allWT_SORCS2.png?v=7" width="33%" /><img src="figures/umap_allWT_CSGALNACT1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PTGS2.png?v=7" width="33%" /><img src="figures/umap_allWT_SERPING1.png?v=7" width="33%" /><img src="figures/umap_allWT_CAMK4.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_H2AZ1.png?v=7" width="33%" /><img src="figures/umap_allWT_AJUBA.png?v=7" width="33%" /><img src="figures/umap_allWT_TUBA1B.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ZNF518B.png?v=7" width="33%" /><img src="figures/umap_allWT_FAM118A.png?v=7" width="33%" /><img src="figures/umap_allWT_MASP1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CUL7.png?v=7" width="33%" /><img src="figures/umap_allWT_SMC2.png?v=7" width="33%" /><img src="figures/umap_allWT_GRIA3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PAPPA2.png?v=7" width="33%" /><img src="figures/umap_allWT_PTN.png?v=7" width="33%" /><img src="figures/umap_allWT_FHOD3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_DCN.png?v=7" width="33%" /><img src="figures/umap_allWT_CUL9.png?v=7" width="33%" /><img src="figures/umap_allWT_FBLIM1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_clustered_leiden.png?v=7" width="33%" /><img src="figures/umap_allWT_ZNF354C.png?v=7" width="33%" /><img src="figures/umap_allWT_SMOC2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_HMGB2.png?v=7" width="33%" /><img src="figures/umap_allWT_FAT3.png?v=7" width="33%" /><img src="figures/umap_allWT_PHLDB2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_IGFBP2.png?v=7" width="33%" /><img src="figures/umap_allWT_AKAP12.png?v=7" width="33%" /><img src="figures/umap_allWT_CXCL14.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ERMP1.png?v=7" width="33%" /><img src="figures/umap_allWT_ANK3.png?v=7" width="33%" /><img src="figures/umap_allWT_ADAMTSL3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PAK3.png?v=7" width="33%" /><img src="figures/umap_allWT_GPM6B.png?v=7" width="33%" /><img src="figures/umap_allWT_TCF7.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_IGDCC4.png?v=7" width="33%" /><img src="figures/umap_allWT_NELL2.png?v=7" width="33%" /><img src="figures/umap_allWT_CRLF1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ACAN.png?v=7" width="33%" /><img src="figures/umap_allWT_ANGPT1.png?v=7" width="33%" /><img src="figures/umap_allWT_POSTN.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_WDR6.png?v=7" width="33%" /><img src="figures/umap_allWT_RGS3.png?v=7" width="33%" /><img src="figures/umap_allWT_PTX3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PYGB.png?v=7" width="33%" /><img src="figures/umap_allWT_TNFAIP2.png?v=7" width="33%" /><img src="figures/umap_allWT_CENPF.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_COL2A1.png?v=7" width="33%" /><img src="figures/umap_allWT_BCL7A.png?v=7" width="33%" /><img src="figures/umap_allWT_TMTC4.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PRC1.png?v=7" width="33%" /><img src="figures/umap_allWT_TOP2A.png?v=7" width="33%" /><img src="figures/umap_allWT_SERINC2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_HEBP2.png?v=7" width="33%" /><img src="figures/umap_allWT_FNDC1.png?v=7" width="33%" /><img src="figures/umap_allWT_ASPN.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CKS2.png?v=7" width="33%" /><img src="figures/umap_allWT_CCBE1.png?v=7" width="33%" /><img src="figures/umap_allWT_OBSL1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_IFITM1.png?v=7" width="33%" /><img src="figures/umap_allWT_CENPE.png?v=7" width="33%" /><img src="figures/umap_allWT_IMPA2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ADAM19.png?v=7" width="33%" /><img src="figures/umap_allWT_GREM1.png?v=7" width="33%" /><img src="figures/umap_allWT_SCARA5.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CAPN6.png?v=7" width="33%" /><img src="figures/umap_allWT_CEBPD.png?v=7" width="33%" /><img src="figures/umap_allWT_MGP.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_HS3ST3B1.png?v=7" width="33%" /><img src="figures/umap_allWT_OGN.png?v=7" width="33%" /><img src="figures/umap_allWT_SOX9.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_TADA2A.png?v=7" width="33%" /><img src="figures/umap_allWT_LRRC17.png?v=7" width="33%" /><img src="figures/umap_allWT_COMP.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CAD.png?v=7" width="33%" /><img src="figures/umap_allWT_COLQ.png?v=7" width="33%" /><img src="figures/umap_allWT_MKI67.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_SLITRK6.png?v=7" width="33%" /><img src="figures/umap_allWT_COL25A1.png?v=7" width="33%" /><img src="figures/umap_allWT_S100A4.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_MOXD1.png?v=7" width="33%" /><img src="figures/umap_allWT_DYNC1I1.png?v=7" width="33%" /><img src="figures/umap_allWT_TAGLN.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ALPL.png?v=7" width="33%" /><img src="figures/umap_allWT_GALNT3.png?v=7" width="33%" /><img src="figures/umap_allWT_TIMP1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PANK1.png?v=7" width="33%" /><img src="figures/umap_allWT_L3HYPDH.png?v=7" width="33%" /><img src="figures/umap_allWT_OLFML1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_COMMD5.png?v=7" width="33%" /><img src="figures/umap_allWT_BCL11B.png?v=7" width="33%" /><img src="figures/umap_allWT_COL9A1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_MATN1.png?v=7" width="33%" /><img src="figures/umap_allWT_NNMT.png?v=7" width="33%" /><img src="figures/umap_allWT_CSF1R.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_NSG1.png?v=7" width="33%" /><img src="figures/umap_allWT_B4GALT2.png?v=7" width="33%" /><img src="figures/umap_allWT_CCDC8.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_RBMX2.png?v=7" width="33%" /><img src="figures/umap_allWT_PYCR1.png?v=7" width="33%" /><img src="figures/umap_allWT_EPHA3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_MCAM.png?v=7" width="33%" /><img src="figures/umap_allWT_KRT10.png?v=7" width="33%" /><img src="figures/umap_allWT_THBS2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_RARRES2.png?v=7" width="33%" /><img src="figures/umap_allWT_PTPRT.png?v=7" width="33%" /><img src="figures/umap_allWT_STC2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CENPA.png?v=7" width="33%" /><img src="figures/umap_allWT_RGS5.png?v=7" width="33%" /><img src="figures/umap_allWT_CPA6.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ITGA6.png?v=7" width="33%" /><img src="figures/umap_allWT_SELENOH.png?v=7" width="33%" /><img src="figures/umap_allWT_PAMR1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_TPX2.png?v=7" width="33%" /><img src="figures/umap_allWT_LY75.png?v=7" width="33%" /><img src="figures/umap_allWT_MBP.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_SFRP2.png?v=7" width="33%" /><img src="figures/umap_allWT_ZNF185.png?v=7" width="33%" /><img src="figures/umap_allWT_FAM20A.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_STRA6.png?v=7" width="33%" /><img src="figures/umap_allWT_DTX4.png?v=7" width="33%" /><img src="figures/umap_allWT_KLRD1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CD68.png?v=7" width="33%" /><img src="figures/umap_allWT_GPX3.png?v=7" width="33%" /><img src="figures/umap_allWT_ANO1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CKS1B.png?v=7" width="33%" /><img src="figures/umap_allWT_C1QTNF3.png?v=7" width="33%" /><img src="figures/umap_allWT_NPR3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ANGPT4.png?v=7" width="33%" /><img src="figures/umap_allWT_SEMA4F.png?v=7" width="33%" /><img src="figures/umap_allWT_MATN3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CCNB2.png?v=7" width="33%" /><img src="figures/umap_allWT_RCOR2.png?v=7" width="33%" /><img src="figures/umap_allWT_SEC16B.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_annotated_celltype.png?v=7" width="33%" /><img src="figures/umap_allWT_FBXO36.png?v=7" width="33%" /><img src="figures/umap_allWT_ACTA2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_COL9A2.png?v=7" width="33%" /><img src="figures/umap_allWT_AMACR.png?v=7" width="33%" /><img src="figures/umap_allWT_CTHRC1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_SPC24.png?v=7" width="33%" /><img src="figures/umap_allWT_FAH.png?v=7" width="33%" /><img src="figures/umap_allWT_CCL2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PCLAF.png?v=7" width="33%" /><img src="figures/umap_allWT_GPRC5C.png?v=7" width="33%" /><img src="figures/umap_allWT_CNN1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_NUPR1.png?v=7" width="33%" /><img src="figures/umap_allWT_CDK1.png?v=7" width="33%" /><img src="figures/umap_allWT_PLPPR3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_OMD.png?v=7" width="33%" /><img src="figures/umap_allWT_PAFAH1B3.png?v=7" width="33%" /><img src="figures/umap_allWT_ADGRG6.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_GAS2.png?v=7" width="33%" /><img src="figures/umap_allWT_TMEM30B.png?v=7" width="33%" /><img src="figures/umap_allWT_RAB38.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ITM2A.png?v=7" width="33%" /><img src="figures/umap_allWT_FIBIN.png?v=7" width="33%" /><img src="figures/umap_allWT_FOXF2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_HMMR.png?v=7" width="33%" /><img src="figures/umap_allWT_NOL3.png?v=7" width="33%" /><img src="figures/umap_allWT_H1-5.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ADAMTS16.png?v=7" width="33%" /><img src="figures/umap_allWT_BIRC5.png?v=7" width="33%" /><img src="figures/umap_allWT_RBP4.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_GRB14.png?v=7" width="33%" /><img src="figures/umap_allWT_LRRC75B.png?v=7" width="33%" /><img src="figures/umap_allWT_SP7.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_UBE2C.png?v=7" width="33%" /><img src="figures/umap_allWT_PLEKHG4.png?v=7" width="33%" /><img src="figures/umap_allWT_CDCA8.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_MMP13.png?v=7" width="33%" /><img src="figures/umap_allWT_TAC1.png?v=7" width="33%" /><img src="figures/umap_allWT_MYO7A.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CCDC167.png?v=7" width="33%" /><img src="figures/umap_allWT_HSPB6.png?v=7" width="33%" /><img src="figures/umap_allWT_RELN.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_GALE.png?v=7" width="33%" /><img src="figures/umap_allWT_ETV4.png?v=7" width="33%" /><img src="figures/umap_allWT_KCNJ15.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PHETA2.png?v=7" width="33%" /><img src="figures/umap_allWT_RAB27B.png?v=7" width="33%" /><img src="figures/umap_allWT_ARSI.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_MYH11.png?v=7" width="33%" /><img src="figures/umap_allWT_PRKG2.png?v=7" width="33%" /><img src="figures/umap_allWT_ASPHD2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_WNT16.png?v=7" width="33%" /><img src="figures/umap_allWT_CHADL.png?v=7" width="33%" /><img src="figures/umap_allWT_JPH2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_annotated_celltypeON.png?v=7" width="33%" /><img src="figures/umap_allWT_EFNA4.png?v=7" width="33%" /><img src="figures/umap_allWT_SERP2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PAQR6.png?v=7" width="33%" /><img src="figures/umap_allWT_PODNL1.png?v=7" width="33%" /><img src="figures/umap_allWT_PRSS35.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CXADR.png?v=7" width="33%" /><img src="figures/umap_allWT_IGF1.png?v=7" width="33%" /><img src="figures/umap_allWT_ENO3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CHI3L1.png?v=7" width="33%" /><img src="figures/umap_allWT_KRT5.png?v=7" width="33%" /><img src="figures/umap_allWT_CXCL2.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_TP63.png?v=7" width="33%" /><img src="figures/umap_allWT_CDH1.png?v=7" width="33%" /><img src="figures/umap_allWT_CHST1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_LCA5L.png?v=7" width="33%" /><img src="figures/umap_allWT_CPNE4.png?v=7" width="33%" /><img src="figures/umap_allWT_CCK.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_COL17A1.png?v=7" width="33%" /><img src="figures/umap_allWT_DIO2.png?v=7" width="33%" /><img src="figures/umap_allWT_PI15.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_KRT14.png?v=7" width="33%" /><img src="figures/umap_allWT_GPR27.png?v=7" width="33%" /><img src="figures/umap_allWT_GUCA1A.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_WNT7B.png?v=7" width="33%" /><img src="figures/umap_allWT_GPER1.png?v=7" width="33%" /><img src="figures/umap_allWT_CTXN1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CPZ.png?v=7" width="33%" /><img src="figures/umap_allWT_EPCAM.png?v=7" width="33%" /><img src="figures/umap_allWT_TNFAIP8L3.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_SERPINA3.png?v=7" width="33%" /><img src="figures/umap_allWT_BDKRB1.png?v=7" width="33%" /><img src="figures/umap_allWT_CDKN2B.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CD4.png?v=7" width="33%" /><img src="figures/umap_allWT_CD74.png?v=7" width="33%" /><img src="figures/umap_allWT_YDJC.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_MFAP5.png?v=7" width="33%" /><img src="figures/umap_allWT_ITGBL1.png?v=7" width="33%" /><img src="figures/umap_allWT_CD79A.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_UCN2.png?v=7" width="33%" /><img src="figures/umap_allWT_SOX10.png?v=7" width="33%" /><img src="figures/umap_allWT_BGLAP.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_KCNJ8.png?v=7" width="33%" /><img src="figures/umap_allWT_IBSP.png?v=7" width="33%" /><img src="figures/umap_allWT_CXCL1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_SPP1.png?v=7" width="33%" /><img src="figures/umap_allWT_TNN.png?v=7" width="33%" /><img src="figures/umap_allWT_HOTAIRM1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_BMP3.png?v=7" width="33%" /><img src="figures/umap_allWT_MPZ.png?v=7" width="33%" /><img src="figures/umap_allWT_HPGD.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CCN5.png?v=7" width="33%" /><img src="figures/umap_allWT_CD14.png?v=7" width="33%" /><img src="figures/umap_allWT_CD8A.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CALCR.png?v=7" width="33%" /><img src="figures/umap_allWT_PTGES3L.png?v=7" width="33%" /><img src="figures/umap_allWT_THEM6.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_STMN2.png?v=7" width="33%" /><img src="figures/umap_allWT_S100B.png?v=7" width="33%" /><img src="figures/umap_allWT_METRN.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_PLP1.png?v=7" width="33%" /><img src="figures/umap_allWT_APOD.png?v=7" width="33%" /><img src="figures/umap_allWT_TMEM151A.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_DES.png?v=7" width="33%" /><img src="figures/umap_allWT_KRT1.png?v=7" width="33%" /><img src="figures/umap_allWT_GNLY.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_CDKN2A.png?v=7" width="33%" /><img src="figures/umap_allWT_IL7R.png?v=7" width="33%" /><img src="figures/umap_allWT_S100A9.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_GJB3.png?v=7" width="33%" /><img src="figures/umap_allWT_PAX5.png?v=7" width="33%" /><img src="figures/umap_allWT_S100A8.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_DCSTAMP.png?v=7" width="33%" /><img src="figures/umap_allWT_ELANE.png?v=7" width="33%" /><img src="figures/umap_allWT_AIF1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_GJB5.png?v=7" width="33%" /><img src="figures/umap_allWT_PLA1A.png?v=7" width="33%" /><img src="figures/umap_allWT_DMP1.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_ACP5.png?v=7" width="33%" /><img src="figures/umap_allWT_LYZ.png?v=7" width="33%" /><img src="figures/umap_allWT_TRAC.png?v=7" width="33%" />
+
+<img src="figures/umap_allWT_MPO.png?v=7" width="33%" /><img src="figures/umap_allWT_HP.png?v=7" width="33%" />
 
 ## Preliminary Annotations 
 
