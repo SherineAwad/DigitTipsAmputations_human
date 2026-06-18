@@ -191,13 +191,13 @@ marker_genes = {
 <img src="figures/umap_allWT_ADGRL3.png?v=7" width="33%" /><img src="figures/umap_allWT_ZNF354C.png?v=7" width="33%" /><img src="figures/umap_allWT_WWP2.png?v=7" width="33%" />
 <img src="figures/umap_allWT_HOTAIRM1.png?v=7" width="33%" /><img src="figures/umap_allWT_THEM6.png?v=7" width="33%" /><img src="figures/umap_allWT_ERMP1.png?v=7" width="33%" />
 <img src="figures/umap_allWT_RAB38.png?v=7" width="33%" /><img src="figures/umap_allWT_CCN5.png?v=7" width="33%" /><img src="figures/umap_allWT_ADAM19.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CACNA1C.png?v=7" width="33%" /><img src="figures/umap_allWT_GJB5.png?v=7" width="33%" /><img src="figures/umap_allWT_MY O7A.png?v=7" width="33%" />
+<img src="figures/umap_allWT_CACNA1C.png?v=7" width="33%" /><img src="figures/umap_allWT_GJB5.png?v=7" width="33%" /><img src="figures/umap_allWT_MYO7A.png?v=7" width="33%" />
 <img src="figures/umap_allWT_HEBP2.png?v=7" width="33%" /><img src="figures/umap_allWT_GUCA1A.png?v=7" width="33%" /><img src="figures/umap_allWT_SEC16B.png?v=7" width="33%" />
 <img src="figures/umap_allWT_NOL3.png?v=7" width="33%" /><img src="figures/umap_allWT_MATN3.png?v=7" width="33%" /><img src="figures/umap_allWT_GAS2.png?v=7" width="33%" />
 <img src="figures/umap_allWT_CAD.png?v=7" width="33%" /><img src="figures/umap_allWT_CCDC8.png?v=7" width="33%" /><img src="figures/umap_allWT_FBXW4.png?v=7" width="33%" />
 <img src="figures/umap_allWT_SMYD3.png?v=7" width="33%" /><img src="figures/umap_allWT_L3HYPDH.png?v=7" width="33%" /><img src="figures/umap_allWT_SH3RF1.png?v=7" width="33%" />
 <img src="figures/umap_allWT_TMEFF1.png?v=7" width="33%" /><img src="figures/umap_allWT_IGDCC4.png?v=7" width="33%" /><img src="figures/umap_allWT_CPZ.png?v=7" width="33%" />
-<img src="figures/umap_allWT_DIP2A.png?v=7" width="33%" /><img src="figures/umap_allWT_CERS6.png?v=7" width="33%" /><img src="figures/umap_allWT_PT GES3L.png?v=7" width="33%" />
+<img src="figures/umap_allWT_DIP2A.png?v=7" width="33%" /><img src="figures/umap_allWT_CERS6.png?v=7" width="33%" /><img src="figures/umap_allWT_PTGES3L.png?v=7" width="33%" />
 <img src="figures/umap_allWT_RBMX2.png?v=7" width="33%" /><img src="figures/umap_allWT_BCL9.png?v=7" width="33%" /><img src="figures/umap_allWT_HSPB6.png?v=7" width="33%" />
 <img src="figures/umap_allWT_PRICKLE1.png?v=7" width="33%" /><img src="figures/umap_allWT_GJB3.png?v=7" width="33%" /><img src="figures/umap_allWT_CAMK4.png?v=7" width="33%" />
 <img src="figures/umap_allWT_IMPA2.png?v=7" width="33%" /><img src="figures/umap_allWT_DZIP1L.png?v=7" width="33%" /><img src="figures/umap_allWT_PHETA2.png?v=7" width="33%" />
@@ -214,7 +214,7 @@ marker_genes = {
 <img src="figures/umap_allWT_AKAP12.png?v=7" width="33%" /><img src="figures/umap_allWT_SERP2.png?v=7" width="33%" /><img src="figures/umap_allWT_SMARCA1.png?v=7" width="33%" />
 <img src="figures/umap_allWT_COL9A2.png?v=7" width="33%" /><img src="figures/umap_allWT_PLEKHG4.png?v=7" width="33%" /><img src="figures/umap_allWT_PLA1A.png?v=7" width="33%" />
 <img src="figures/umap_allWT_CPA6.png?v=7" width="33%" /><img src="figures/umap_allWT_CNN1.png?v=7" width="33%" /><img src="figures/umap_allWT_MPPED2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_DHX58-DT.png?v=7" width="33%" /><img src="figures/umap_allWT_TCF7.png?v=7" width="33%" /><img src="figures/umap_allWT_STK26.png?v=7" width="33%" />
+<img src="figures/umap_allWT_TCF7.png?v=7" width="33%" /><img src="figures/umap_allWT_STK26.png?v=7" width="33%" /> <img src="figures/umap_allWT_CEBPD.png?v=7" width="33%" />
 <img src="figures/umap_allWT_BCL7A.png?v=7" width="33%" /><img src="figures/umap_allWT_SLITRK6.png?v=7" width="33%" /><img src="figures/umap_allWT_ANK3.png?v=7" width="33%" />
 <img src="figures/umap_allWT_NPR3.png?v=7" width="33%" /><img src="figures/umap_allWT_COL24A1.png?v=7" width="33%" /><img src="figures/umap_allWT_WNT16.png?v=7" width="33%" />
 <img src="figures/umap_allWT_GRIA3.png?v=7" width="33%" /><img src="figures/umap_allWT_TMEM30B.png?v=7" width="33%" /><img src="figures/umap_allWT_HS3ST3B1.png?v=7" width="33%" />
@@ -261,14 +261,13 @@ marker_genes = {
 <img src="figures/umap_allWT_GP X3.png?v=7" width="33%" /><img src="figures/umap_allWT_HMMR.png?v=7" width="33%" /><img src="figures/umap_allWT_STMN2.png?v=7" width="33%" />
 <img src="figures/umap_allWT_IGFBP2.png?v=7" width="33%" /><img src="figures/umap_allWT_WNT5A.png?v=7" width="33%" /><img src="figures/umap_allWT_SERPINE2.png?v=7" width="33%" />
 <img src="figures/umap_allWT_CHI3L1.png?v=7" width="33%" /><img src="figures/umap_allWT_FIBIN.png?v=7" width="33%" /><img src="figures/umap_allWT_IGFBP5.png?v=7" width="33%" />
-<img src="figures/umap_allWT_RARRES2.png?v=7" width="33%" /><img src="figures/umap_allWT_DCNC.png?v=7" width="33%" /><img src="figures/umap_allWT_PT N.png?v=7" width="33%" />
+<img src="figures/umap_allWT_RARRES2.png?v=7" width="33%" /><img src="figures/umap_allWT_DCNC.png?v=7" width="33%" /><img src="figures/umap_allWT_PTN.png?v=7" width="33%" />
 <img src="figures/umap_allWT_ELN.png?v=7" width="33%" /><img src="figures/umap_allWT_TIMP1.png?v=7" width="33%" /><img src="figures/umap_allWT_S100A4.png?v=7" width="33%" />
 <img src="figures/umap_allWT_IFITM1.png?v=7" width="33%" /><img src="figures/umap_allWT_SCARA5.png?v=7" width="33%" /><img src="figures/umap_allWT_PAPPA2.png?v=7" width="33%" />
 <img src="figures/umap_allWT_CCL2.png?v=7" width="33%" /><img src="figures/umap_allWT_SERPING1.png?v=7" width="33%" /><img src="figures/umap_allWT_OGN.png?v=7" width="33%" />
 <img src="figures/umap_allWT_NUPR1.png?v=7" width="33%" /><img src="figures/umap_allWT_PLPP3.png?v=7" width="33%" /><img src="figures/umap_allWT_PTX3.png?v=7" width="33%" />
 <img src="figures/umap_allWT_CRLF1.png?v=7" width="33%" /><img src="figures/umap_allWT_NSG1.png?v=7" width="33%" /><img src="figures/umap_allWT_H2AZ2.png?v=7" width="33%" />
 <img src="figures/umap_allWT_GPM6B.png?v=7" width="33%" /><img src="figures/umap_allWT_COL6A3.png?v=7" width="33%" /><img src="figures/umap_allWT_DIO2.png?v=7" width="33%" />
-<img src="figures/umap_allWT_CEBPD.png?v=7" width="33%" />
 
 ## Preliminary Annotations 
 
