@@ -405,12 +405,15 @@ marker_genes = {
 ##### At a normalised log1p level 
 ![](figures/dotplot__allWTClusters_dotplot.png?v=1)
 
-##### At raw counts 
-![](figures/umap_matrisome_matrisome_umapCOUNTS.png?v=1) 
-
 ### Matrisome plot 
 
+#### At log1p normalised level 
 ![](figures/umap_matrisome_matrisome_umap.png?v=1)
+
+
+##### At raw counts (not used just to see) 
+![](figures/umap_matrisome_matrisome_umapCOUNTS.png?v=1)
+
 
 #### Matrisome plots per category 
 
