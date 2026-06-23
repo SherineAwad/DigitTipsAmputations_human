@@ -400,6 +400,21 @@ marker_genes = {
 <img src="figures/umap_allWT_FBXO36.png?v=7" width="33%" /><img src="figures/umap_allWT_ACTA2.png?v=7" width="33%" />
 
 
+### Highly expressed genes per cluster ledien 
+
+![](figures/dotplot__allWTClusters_dotplot.png?v=1)
+
+### Matrisome plot 
+
+![](figures/umap_matrisome_matrisome_umap.png?v=1)
+
+#### Matrisome plots per category 
+
+<img src="figures/umap_matrisome_ECM_Glycoproteins_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_Collagens_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_Proteoglycans_umap.png?v=1" width="33%" />
+
+<img src="figures/umap_matrisome_ECM-affiliated_Proteins_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_Secreted_Factors_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_ECM_Regulators_umap.png?v=1" width="33%" />
+
+
 ## Preliminary Annotations 
 
 
