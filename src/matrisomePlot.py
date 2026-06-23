@@ -1,11 +1,10 @@
-import argparse
 import scanpy as sc
 import pandas as pd
 import numpy as np
+import argparse
 
 
 def load_matrisome_genes(matrisome_file):
-    # Your file has a metadata row first, real header is row 2
     df = pd.read_csv(matrisome_file, header=1)
 
     genes = (
@@ -22,27 +21,33 @@ def load_matrisome_genes(matrisome_file):
 def compute_matrisome_score(adata, matrisome_genes):
 
     if "gene_name" not in adata.var.columns:
-        raise ValueError(
-            "gene_name column not found in adata.var"
-        )
+        raise ValueError("gene_name column not found in adata.var")
 
     gene_names = adata.var["gene_name"].astype(str).str.strip()
 
+    # map matrisome genes → adata indices
     mask = gene_names.isin(matrisome_genes)
 
     if mask.sum() == 0:
-        raise ValueError(
-            "No matrisome genes found in adata.var['gene_name']"
-        )
-
-    X = adata.X[:, mask]
-
-    # sparse-safe mean calculation
-    score = np.asarray(X.mean(axis=1)).flatten()
-
-    adata.obs["matrisome_score"] = score
+        raise ValueError("No matrisome genes found in adata.var['gene_name']")
 
     print(f"Matched {mask.sum()} matrisome genes")
+
+    # IMPORTANT: use correct layer
+    adata.X = adata.layers["log1p"]
+
+    # Scanpy requires var_names, so we subset properly
+    valid_genes = adata.var_names[mask.values].tolist()
+
+    if len(valid_genes) == 0:
+        raise ValueError("No valid genes after mapping to var_names")
+
+    sc.tl.score_genes(
+        adata,
+        gene_list=valid_genes,
+        score_name="matrisome_score",
+        use_raw=False
+    )
 
     return adata
 
@@ -59,14 +64,11 @@ def main():
 
     adata = sc.read_h5ad(args.input)
 
-    matrisome_genes = load_matrisome_genes(
-        args.matrisome_genes
-    )
+    matrisome_genes = load_matrisome_genes(args.matrisome_genes)
 
-    adata = compute_matrisome_score(
-        adata,
-        matrisome_genes
-    )
+    print(list(matrisome_genes)[:5])
+
+    adata = compute_matrisome_score(adata, matrisome_genes)
 
     sc.pl.umap(
         adata,

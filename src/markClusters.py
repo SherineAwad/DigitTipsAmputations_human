@@ -9,29 +9,21 @@ def main():
     parser.add_argument('--input', required=True, help='Input clustered h5ad file')
     parser.add_argument('--prefix', required=True, help='Prefix for all output figures')
     args = parser.parse_args()
-    
+
     adata = sc.read_h5ad(args.input)
     Path('figures').mkdir(exist_ok=True)
-    
-    if 'log1p' in adata.layers:
-        adata.X = adata.layers['log1p'].copy()
-    else:
-        sc.pp.log1p(adata)
-    
-    # Remove duplicates but keep AnnData structure intact
-    mask = ~adata.var["gene_name"].duplicated(keep='first')
-    adata = adata[:, mask]
-    
-    sc.tl.rank_genes_groups(adata, groupby='leiden', method='wilcoxon', use_raw=False)
-    
+
+
+    sc.tl.rank_genes_groups(adata, groupby='leiden', method='wilcoxon', use_raw=False, layer='log1p')
+
     sc.pl.rank_genes_groups_dotplot(
         adata,
-        n_genes=5,
+        n_genes=3,
         groupby='leiden',
         gene_symbols="gene_name",
         save=f'_{args.prefix}_dotplot.png'
     )
-    
+
     for f in glob.glob(f'*{args.prefix}_dotplot.png'):
         os.rename(f, f'figures/{f}')
 
