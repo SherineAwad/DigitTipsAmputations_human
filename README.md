@@ -422,6 +422,13 @@ marker_genes = {
 <img src="figures/umap_matrisome_ECM-affiliated_Proteins_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_Secreted_Factors_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_ECM_Regulators_umap.png?v=1" width="33%" />
 
 
+
+### Random Forest celltype simialrity 
+
+
+![](figures/RF_violin_samples.png?v=1) 
+
+
 ## Preliminary Annotations 
 
 
