@@ -402,7 +402,11 @@ marker_genes = {
 
 ### Highly expressed genes per cluster ledien 
 
+##### At a normalised log1p level 
 ![](figures/dotplot__allWTClusters_dotplot.png?v=1)
+
+##### At raw counts 
+![](figures/umap_matrisome_matrisome_umapCOUNTS.png?v=1) 
 
 ### Matrisome plot 
 
