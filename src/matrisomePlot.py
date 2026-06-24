@@ -73,6 +73,7 @@ def main():
         adata,
         color="matrisome_score",
         show=False,
+        title=f"{args.prefix}_score",
         save=f"_{args.prefix}_matrisome_umap.png"
     )
 
