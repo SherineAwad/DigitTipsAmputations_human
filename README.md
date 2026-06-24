@@ -400,7 +400,7 @@ marker_genes = {
 <img src="figures/umap_allWT_FBXO36.png?v=7" width="33%" /><img src="figures/umap_allWT_ACTA2.png?v=7" width="33%" />
 
 
-### Highly expressed genes per cluster ledien 
+### Differentially  expressed genes per cluster ledien 
 
 ![](figures/dotplot__allWTClusters_dotplot.png?v=1)
 
