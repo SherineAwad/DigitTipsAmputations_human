@@ -406,13 +406,7 @@ marker_genes = {
 
 ### Matrisome plot 
 
-#### At log1p normalised level 
 ![](figures/umap_matrisome_matrisome_umap.png?v=1)
-
-
-##### At raw counts (not used just to see) 
-![](figures/umap_matrisome_matrisome_umapCOUNTS.png?v=1)
-
 
 #### Matrisome plots per category 
 
@@ -421,11 +415,16 @@ marker_genes = {
 <img src="figures/umap_matrisome_ECM-affiliated_Proteins_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_Secreted_Factors_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_ECM_Regulators_umap.png?v=1" width="33%" />
 
 
+#### A score plot using Blasetema genes 
+
+![](figures/umap_matrisome_blastema_matrisome_umap.png?v=1)
 
 ### Random Forest celltype simialrity 
 
 
 ![](figures/RF_violin_samples.png?v=1) 
+
+
 
 
 ## Preliminary Annotations 
