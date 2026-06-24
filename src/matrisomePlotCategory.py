@@ -5,7 +5,7 @@ import argparse
 
 
 def load_matrisome(matrisome_file):
-    df = pd.read_csv(matrisome_file, header=1)
+    df = pd.read_csv(matrisome_file, header=0)
 
     df["Gene Symbol"] = df["Gene Symbol"].astype(str).str.strip()
     df["Matrisome Category"] = df["Matrisome Category"].astype(str).str.strip()
@@ -20,9 +20,6 @@ def compute_category_scores(adata, df):
 
     gene_names = adata.var["gene_name"].astype(str).str.strip()
 
-    # IMPORTANT: use log1p layer only
-    adata.X = adata.layers["log1p"]
-
     categories = df["Matrisome Category"].unique()
 
     for cat in categories:
@@ -30,18 +27,21 @@ def compute_category_scores(adata, df):
         genes = df.loc[df["Matrisome Category"] == cat, "Gene Symbol"].tolist()
 
         mask = gene_names.isin(genes)
-
         valid_genes = adata.var_names[mask.values].tolist()
 
         if len(valid_genes) == 0:
             print(f"Skipping {cat}: no matched genes")
             continue
 
+        # =========================
+        # FIX: use layer directly
+        # =========================
         sc.tl.score_genes(
             adata,
             gene_list=valid_genes,
             score_name=f"{cat}_score",
-            use_raw=False
+            use_raw=False,
+            layer="log1p"
         )
 
         print(f"{cat}: {len(valid_genes)} genes used")
@@ -66,7 +66,6 @@ def main():
 
     adata = compute_category_scores(adata, df)
 
-    # plot each category separately
     categories = df["Matrisome Category"].unique()
 
     for cat in categories:

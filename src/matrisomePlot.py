@@ -5,7 +5,7 @@ import argparse
 
 
 def load_matrisome_genes(matrisome_file):
-    df = pd.read_csv(matrisome_file, header=1)
+    df = pd.read_csv(matrisome_file, header=0)
 
     genes = (
         df["Gene Symbol"]
@@ -24,8 +24,6 @@ def compute_matrisome_score(adata, matrisome_genes):
         raise ValueError("gene_name column not found in adata.var")
 
     gene_names = adata.var["gene_name"].astype(str).str.strip()
-
-    # map matrisome genes → adata indices
     mask = gene_names.isin(matrisome_genes)
 
     if mask.sum() == 0:
@@ -33,20 +31,21 @@ def compute_matrisome_score(adata, matrisome_genes):
 
     print(f"Matched {mask.sum()} matrisome genes")
 
-    # IMPORTANT: use correct layer
-    adata.X = adata.layers["log1p"]
-
-    # Scanpy requires var_names, so we subset properly
     valid_genes = adata.var_names[mask.values].tolist()
 
     if len(valid_genes) == 0:
-        raise ValueError("No valid genes after mapping to var_names")
+        raise ValueError("No valid genes after mapping")
 
+    # ==========================
+    # THE ONLY REAL FIX
+    # ==========================
+    # tell Scanpy to use the layer instead of X
     sc.tl.score_genes(
         adata,
         gene_list=valid_genes,
         score_name="matrisome_score",
-        use_raw=False
+        use_raw=False,
+        layer="log1p"
     )
 
     return adata
