@@ -410,7 +410,7 @@ marker_genes = {
 ![](figures/umap_matrisome_matrisome_umap_Uninjured.png?v=1)
 ![](figures/umap_matrisome_matrisome_umap_3d.png?v=1)
 ![](figures/umap_matrisome_matrisome_umap_6d.png?v=1)
-![](figures/ umap_matrisome_matrisome_umap_9d.png?v=1)
+![](figures/umap_matrisome_matrisome_umap_9d.png?v=1)
 
 #### Matrisome plots per category 
 
