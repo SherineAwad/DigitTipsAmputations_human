@@ -431,8 +431,11 @@ marker_genes = {
 
 #### AUCell score for genes blastema gees 
 
-AUCell score = For each cell, it measures "how many of your input genes are in the top 5-10% most highly expressed genes in that cell" 
-Here, we used blastema genes
+AUCell score is a rank-based enrichment metric that evaluates whether the input gene set is enriched among the highest expressed genes in each cell (based on gene expression ranking rather than absolute expression values). Here, we used blastema genes. This differs from the matrisome score computed above which represents the average expression level of the selected gene set per cell in the log-normalized expression matrix
+
+- High AUCell score → many signature genes are highly ranked → strong activity of that program
+- Low AUCell score → signature genes are scattered low in ranking → weak or absent program activity
+
 
 ![](figures/allWT_sAUCell_aucell_umap.png?v=2)
 ![](figures/allWT_sAUCell_aucell_umap_Uninjured.png?v=1)
