@@ -173,7 +173,10 @@ marker_genes = {
 
 #### Marker genes dot plot and feature plots 
 
+###### Dotplot 
 ![](figures/dotplot__allWT_clustered_markers_dotplot.png?v=2) 
+
+##### Feature plots 
 
 <img src="figures/umap_allWT_ADGRL3.png?v=7" width="33%" /><img src="figures/umap_allWT_WNT5A.png?v=7" width="33%" /><img src="figures/umap_allWT_PRICKLE1.png?v=7" width="33%" />
 
@@ -400,7 +403,9 @@ marker_genes = {
 <img src="figures/umap_allWT_FBXO36.png?v=7" width="33%" /><img src="figures/umap_allWT_ACTA2.png?v=7" width="33%" />
 
 
-### Differentially  expressed genes per cluster ledien 
+### Dot plot of differentially expressed genes per Leiden cluster
+
+We identify genes that are highly expressed in each cluster, which can help characterize and assign putative cell types.
 
 ![](figures/dotplot__allWTClusters_dotplot.png?v=1)
 
