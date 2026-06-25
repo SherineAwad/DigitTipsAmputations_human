@@ -33,9 +33,6 @@ def compute_category_scores(adata, df):
             print(f"Skipping {cat}: no matched genes")
             continue
 
-        # =========================
-        # FIX: use layer directly
-        # =========================
         sc.tl.score_genes(
             adata,
             gene_list=valid_genes,
@@ -77,6 +74,8 @@ def main():
         sc.pl.umap(
             adata,
             color=score_name,
+            vmin=0,
+            vmax=1,
             show=False,
             save=f"_{args.prefix}_{cat.replace(' ', '_')}_umap.png"
         )

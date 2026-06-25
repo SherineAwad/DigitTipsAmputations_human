@@ -414,9 +414,9 @@ marker_genes = {
 
 #### Matrisome plots per category 
 
-<img src="figures/umap_matrisome_ECM_Glycoproteins_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_Collagens_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_Proteoglycans_umap.png?v=1" width="33%" />
+<img src="figures/umap_matrisome_ECM_Glycoproteins_umap.png?v=2" width="33%" /><img src="figures/umap_matrisome_Collagens_umap.png?v=2" width="33%" /><img src="figures/umap_matrisome_Proteoglycans_umap.png?v=2" width="33%" />
 
-<img src="figures/umap_matrisome_ECM-affiliated_Proteins_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_Secreted_Factors_umap.png?v=1" width="33%" /><img src="figures/umap_matrisome_ECM_Regulators_umap.png?v=1" width="33%" />
+<img src="figures/umap_matrisome_ECM-affiliated_Proteins_umap.png?v=2" width="33%" /><img src="figures/umap_matrisome_Secreted_Factors_umap.png?v=2" width="33%" /><img src="figures/umap_matrisome_ECM_Regulators_umap.png?v=2" width="33%" />
 
 
 #### A score plot using Blastema genes 
