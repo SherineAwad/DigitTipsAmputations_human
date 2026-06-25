@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 import numpy as np
 import argparse
 import os
-from matplotlib.colors import Normalize
 
 # Parse arguments
 parser = argparse.ArgumentParser()
@@ -51,10 +50,16 @@ plt.close()
 # Plot 2: UMAP colored by AUCell score (if UMAP exists)
 if 'X_umap' in adata.obsm:
     fig, ax = plt.subplots(figsize=(10, 8))
-    # FIX: Set color normalization to range 0-1
-    norm = Normalize(vmin=0, vmax=1)
-    scat = ax.scatter(adata.obsm['X_umap'][:, 0], adata.obsm['X_umap'][:, 1], 
-                      c=adata.obs['AUCell_score'], cmap='viridis', s=1, alpha=0.6, norm=norm)
+    scat = ax.scatter(
+        adata.obsm['X_umap'][:, 0],
+        adata.obsm['X_umap'][:, 1],
+        c=adata.obs['AUCell_score'],
+        cmap='viridis',
+        s=1,
+        alpha=0.6,
+        vmin=0,
+        vmax=1
+    )
     ax.set_xlabel('UMAP1')
     ax.set_ylabel('UMAP2')
     ax.set_title(f'AUCell Score on UMAP ({args.prefix})')
@@ -64,13 +69,30 @@ if 'X_umap' in adata.obsm:
     plt.savefig(f'figures/{args.prefix}_aucell_umap.png', dpi=150)
     plt.close()
 
-# Plot 3: Violin plot per cluster (if 'leiden' exists)
-if 'leiden' in adata.obs.columns:
-    fig, ax = plt.subplots(figsize=(12, 6))
-    sc.pl.violin(adata, 'AUCell_score', groupby='leiden', ax=ax, show=False)
-    ax.set_title(f'AUCell Score by Leiden Cluster ({args.prefix})')
-    plt.tight_layout()
-    plt.savefig(f'figures/{args.prefix}_aucell_violin.png', dpi=150)
-    plt.close()
+# Plot 3: UMAP colored by AUCell score per sample (if UMAP and sample column exist)
+if 'X_umap' in adata.obsm and 'sample' in adata.obs.columns:
+    unique_samples = adata.obs['sample'].unique()
+    for sample in unique_samples:
+        fig, ax = plt.subplots(figsize=(10, 8))
+        # Subset cells for this sample
+        mask = adata.obs['sample'] == sample
+        scat = ax.scatter(
+            adata.obsm['X_umap'][mask, 0],
+            adata.obsm['X_umap'][mask, 1],
+            c=adata.obs['AUCell_score'][mask],
+            cmap='viridis',
+            s=1,
+            alpha=0.6,
+            vmin=0,
+            vmax=1
+        )
+        ax.set_xlabel('UMAP1')
+        ax.set_ylabel('UMAP2')
+        ax.set_title(f'AUCell Score - {sample} ({args.prefix})')
+        cbar = plt.colorbar(scat, ax=ax)
+        cbar.set_label('AUCell Score')
+        plt.tight_layout()
+        plt.savefig(f'figures/{args.prefix}_aucell_umap_{sample}.png', dpi=150)
+        plt.close()
 
 print(f"All figures saved to figures/{args.prefix}_aucell_*.png")

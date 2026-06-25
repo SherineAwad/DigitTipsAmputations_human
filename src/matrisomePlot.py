@@ -36,10 +36,6 @@ def compute_matrisome_score(adata, matrisome_genes):
     if len(valid_genes) == 0:
         raise ValueError("No valid genes after mapping")
 
-    # ==========================
-    # THE ONLY REAL FIX
-    # ==========================
-    # tell Scanpy to use the layer instead of X
     sc.tl.score_genes(
         adata,
         gene_list=valid_genes,
@@ -69,13 +65,30 @@ def main():
 
     adata = compute_matrisome_score(adata, matrisome_genes)
 
+    # Overall UMAP
     sc.pl.umap(
         adata,
         color="matrisome_score",
+        vmin=0,
+        vmax=1,
         show=False,
         title=f"{args.prefix}_score",
         save=f"_{args.prefix}_matrisome_umap.png"
     )
+
+    # UMAP per sample
+    if 'sample' in adata.obs.columns:
+        for sample in adata.obs['sample'].unique():
+            adata_subset = adata[adata.obs['sample'] == sample]
+            sc.pl.umap(
+                adata_subset,
+                color="matrisome_score",
+                vmin=0,
+                vmax=1,
+                show=False,
+                title=f"{args.prefix}_{sample}",
+                save=f"_{args.prefix}_matrisome_umap_{sample}.png"
+            )
 
     adata.write(args.output)
 

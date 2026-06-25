@@ -406,7 +406,11 @@ marker_genes = {
 
 ### Matrisome plot 
 
-![](figures/umap_matrisome_matrisome_umap.png?v=1)
+![](figures/umap_matrisome_matrisome_umap.png?v=2)
+![](figures/umap_matrisome_matrisome_umap_Uninjured.png?v=1)
+![](figures/umap_matrisome_matrisome_umap_3d.png?v=1)
+![](figures/umap_matrisome_matrisome_umap_6d.png?v=1)
+![](figures/ umap_matrisome_matrisome_umap_9d.png?v=1)
 
 #### Matrisome plots per category 
 
@@ -417,14 +421,30 @@ marker_genes = {
 
 #### A score plot using Blastema genes 
 
-![](figures/umap_blastema_matrisome_umap.png?v=1)
+![](figures/umap_blastema_matrisome_umap.png?v=2) 
+
+![](figures/umap_blastema_matrisome_umap_Uninjured.png?v=1)
+![](figures/umap_blastema_matrisome_umap_3d.png?v=1)
+![](figures/umap_blastema_matrisome_umap_6d.png?v=1)
+![](figures/umap_blastema_matrisome_umap_9d.png?v=1)
+
+
+#### AUCell score for genes blastema gees 
+
+AUCell score = For each cell, it measures "how many of your input genes are in the top 5-10% most highly expressed genes in that cell" 
+Here, we used blastema genes
+
+![](figures/allWT_sAUCell_aucell_umap.png?v=2)
+![](figures/allWT_sAUCell_aucell_umap_Uninjured.png?v=1)
+![](figures/allWT_sAUCell_aucell_umap_3d.png?v=1)
+![](figures/allWT_sAUCell_aucell_umap_6d.png?v=1)
+![](figures/allWT_sAUCell_aucell_umap_9d.png?v=1)
+
 
 ### Random Forest celltype simialrity 
 
 
 ![](figures/RF_violin_samples.png?v=1) 
-
-
 
 
 ## Preliminary Annotations 
