@@ -411,6 +411,9 @@ We identify genes that are highly expressed in each cluster, which can help char
 
 ### Matrisome plot 
 
+We used human Matrisome gene list from Naba et al 2012 in the link below: 
+[Matrisome list Naba et al 2012](https://docs.google.com/spreadsheets/d/12OslOlOhQQtHMOUKAFFgAQXL2zYX-g9q/edit?usp=sharing&ouid=116662519372268813124&rtpof=true&sd=true)
+
 ![](figures/umap_matrisome_matrisome_umap.png?v=2)
 ![](figures/umap_matrisome_matrisome_umap_Uninjured.png?v=1)
 ![](figures/umap_matrisome_matrisome_umap_3d.png?v=1)
@@ -449,8 +452,9 @@ AUCell score is a rank-based enrichment metric that evaluates whether the input 
 ![](figures/allWT_sAUCell_aucell_umap_9d.png?v=1)
 
 
-### Random Forest celltype simialrity 
+### Random Forest-based cell type similarity
 
+We used a Random Forest classifier to quantify transcriptional similarity between conditions. Specifically, the model was trained to distinguish cells from uninjured, 3d, 6d, and 9d samples, allowing us to assess how closely related these states are based on their gene expression profiles.
 
 ![](figures/RF_violin_samples.png?v=1) 
 
