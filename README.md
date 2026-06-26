@@ -445,11 +445,34 @@ AUCell score is a rank-based enrichment metric that evaluates whether the input 
 - Low AUCell score → signature genes are scattered low in ranking → weak or absent program activity
 
 
-![](figures/allWT_sAUCell_aucell_umap.png?v=2)
-![](figures/allWT_sAUCell_aucell_umap_Uninjured.png?v=1)
-![](figures/allWT_sAUCell_aucell_umap_3d.png?v=1)
-![](figures/allWT_sAUCell_aucell_umap_6d.png?v=1)
-![](figures/allWT_sAUCell_aucell_umap_9d.png?v=1)
+![](figures/blastema_AUC_aucell_umap.png?v=1)
+![](figures/blastema_AUC_aucell_umap_Uninjured.png?v=1)
+![](figures/blastema_AUC_aucell_umap_3d.png?v=1)
+![](figures/blastema_AUC_aucell_umap_6d.png?v=1)
+![](figures/blastema_AUC_aucell_umap_9d.png?v=1)
+ 
+#### If we zoom only on 10 genes of blastema genes, we can get a clearer signal: 
+
+| Gene   |
+|--------|
+| MKI67  |
+| TOP2A  |
+| CDK1   |
+| BIRC5  |
+| UBE2C  |
+| CENPF  |
+| CTHRC1 |
+| POSTN  |
+| WNT5A  |
+| IGF1   |
+
+![](figures/blastema_subset_AUC_aucell_umap.png?v=1)
+![](figures/blastema_subset_AUC_aucell_umap_Uninjured.png?v=1)
+![](figures/blastema_subset_AUC_aucell_umap_3d.png?v=1)
+![](figures/blastema_subset_AUC_aucell_umap_6d.png?v=1)
+![](figures/blastema_subset_AUC_aucell_umap_9d.png?v=1) 
+
+
 
 
 ### Random Forest-based cell type similarity
