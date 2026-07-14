@@ -427,53 +427,36 @@ We used human Matrisome gene list from Naba et al 2012 in the link below:
 <img src="figures/umap_matrisome_ECM-affiliated_Proteins_umap.png?v=2" width="33%" /><img src="figures/umap_matrisome_Secreted_Factors_umap.png?v=2" width="33%" /><img src="figures/umap_matrisome_ECM_Regulators_umap.png?v=2" width="33%" />
 
 
-#### A score plot using Blastema genes 
+#### A Module score plot using Blastema genes 
 
-![](figures/umap_blastema_matrisome_umap.png?v=2) 
+We plot module score umap using this list of genes: 
+`LRRC17` `GREM1` `WNT16` `MMP16` `MMP13` `CTHRC1` `TNC` `PRICKLE1` `AKAP12` `POSTN` `ADAM12` `OLFML1` `ITM2A` `EPHA3` `CCN5`
 
-![](figures/umap_blastema_matrisome_umap_Uninjured.png?v=1)
-![](figures/umap_blastema_matrisome_umap_3d.png?v=1)
-![](figures/umap_blastema_matrisome_umap_6d.png?v=1)
-![](figures/umap_blastema_matrisome_umap_9d.png?v=1)
+**Module score calculation:**  
+The module score represents the average expression level of the selected gene set relative to a matched control gene set, calculated using `scanpy.tl.score_genes`. Higher scores indicate stronger enrichment of the module-associated expression program.
 
-
-#### AUCell score for genes blastema gees 
-
-AUCell score is a rank-based enrichment metric that evaluates whether the input gene set is enriched among the highest expressed genes in each cell (based on gene expression ranking rather than absolute expression values). Here, we used blastema genes. This differs from the matrisome score computed above which represents the average expression level of the selected gene set per cell in the log-normalized expression matrix
-
-- High AUCell score → many signature genes are highly ranked → strong activity of that program
-- Low AUCell score → signature genes are scattered low in ranking → weak or absent program activity
+![](figures/umap_blastema_Module_umap.png?v=1)
+![](figures/umap_blastema_Module_umap_Uninjured.png?v=1)
+![](figures/umap_blastema_Module_umap_3d.png?v=1)
+![](figures/umap_blastema_Module_umap_6d.png?v=1)
+![](figures/umap_blastema_Module_umap_9d.png?v=1)
 
 
-![](figures/blastema_AUC_aucell_umap.png?v=1)
-![](figures/blastema_AUC_aucell_umap_Uninjured.png?v=1)
-![](figures/blastema_AUC_aucell_umap_3d.png?v=1)
-![](figures/blastema_AUC_aucell_umap_6d.png?v=1)
-![](figures/blastema_AUC_aucell_umap_9d.png?v=1)
- 
-#### If we zoom only on 10 genes of blastema genes, we can get a clearer signal: 
+#### UCell score for genes blastema genes 
 
-| Gene   |
-|--------|
-| MKI67  |
-| TOP2A  |
-| CDK1   |
-| BIRC5  |
-| UBE2C  |
-| CENPF  |
-| CTHRC1 |
-| POSTN  |
-| WNT5A  |
-| IGF1   |
+We plot UCell score umap using this list of genes: 
+`LRRC17` `GREM1` `WNT16` `MMP16` `MMP13` `CTHRC1` `TNC` `PRICKLE1` `AKAP12` `POSTN` `ADAM12` `OLFML1` `ITM2A` `EPHA3` `CCN5`
 
-![](figures/blastema_subset_AUC_aucell_umap.png?v=1)
-![](figures/blastema_subset_AUC_aucell_umap_Uninjured.png?v=1)
-![](figures/blastema_subset_AUC_aucell_umap_3d.png?v=1)
-![](figures/blastema_subset_AUC_aucell_umap_6d.png?v=1)
-![](figures/blastema_subset_AUC_aucell_umap_9d.png?v=1) 
+UCell score is a rank-based enrichment metric that evaluates whether the input gene set is enriched among the highest expressed genes in each cell (based on gene expression ranking rather than absolute expression values). Here, we used blastema genes. This differs from the matrisome score computed above which represents the average expression level of the selected gene set per cell in the log-normalized expression matrix
 
+- High UCell score → many signature genes are highly ranked → strong activity of that program
+- Low UCell score → signature genes are scattered low in ranking → weak or absent program activity
 
-
+![](figures/blastema_Ucell_umap.png?v=1) 
+![](figures/blastema_Ucell_umap_Uninjured.png?v=1) 
+![](figures/blastema_Ucell_umap_3d.png?v=1)
+![](figures/blastema_Ucell_umap_9d.png?v=1)
+![](figures/blastema_Ucell_umap_6d.png?v=1)
 
 ### Random Forest-based cell type similarity
 
