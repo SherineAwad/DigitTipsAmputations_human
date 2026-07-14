@@ -427,7 +427,7 @@ We used human Matrisome gene list from Naba et al 2012 in the link below:
 <img src="figures/umap_matrisome_ECM-affiliated_Proteins_umap.png?v=2" width="33%" /><img src="figures/umap_matrisome_Secreted_Factors_umap.png?v=2" width="33%" /><img src="figures/umap_matrisome_ECM_Regulators_umap.png?v=2" width="33%" />
 
 
-#### A Module score plot using Blastema genes 
+#### A Module score plot for Blastema genes 
 
 We plot module score umap using this list of genes: 
 `LRRC17` `GREM1` `WNT16` `MMP16` `MMP13` `CTHRC1` `TNC` `PRICKLE1` `AKAP12` `POSTN` `ADAM12` `OLFML1` `ITM2A` `EPHA3` `CCN5`
@@ -442,7 +442,7 @@ The module score represents the average expression level of the selected gene se
 ![](figures/umap_blastema_Module_umap_9d.png?v=1)
 
 
-#### UCell score for genes blastema genes 
+#### UCell score for blastema genes 
 
 We plot UCell score umap using this list of genes: 
 `LRRC17` `GREM1` `WNT16` `MMP16` `MMP13` `CTHRC1` `TNC` `PRICKLE1` `AKAP12` `POSTN` `ADAM12` `OLFML1` `ITM2A` `EPHA3` `CCN5`
@@ -458,6 +458,21 @@ UCell score is a rank-based enrichment metric that evaluates whether the input g
 ![](figures/blastema_Ucell_umap_9d.png?v=1)
 ![](figures/blastema_Ucell_umap_6d.png?v=1)
 
+
+#### KNN imputed feature plots for blastema genes 
+
+Unlike conventional feature plots, which display only the measured expression in each individual cell and can be affected by dropout and stochastic variation, KNN-smoothed feature plots improve visualization of gene expression patterns by averaging the expression of each cell with that of its transcriptionally similar neighboring cells. This reduces cell-to-cell noise caused by random dropout and measurement variability, highlighting consistent expression patterns shared across local cellular neighborhoods and revealing underlying expression trends that may be obscured at the single-cell level. As a result, subtle but biologically meaningful cell populations and gene expression programs can become more readily identifiable.
+
+<img src="figures/umap_blastema_imputedfeatureplot_ADAM12.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_GREM1.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_OLFML1.png?v=1" width="33%" />
+
+<img src="figures/umap_blastema_imputedfeatureplot_AKAP12.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_ITM2A.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_POSTN.png?v=1" width="33%" />
+
+<img src="figures/umap_blastema_imputedfeatureplot_CCN5.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_LRRC17.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_PRICKLE1.png?v=1" width="33%" />
+
+<img src="figures/umap_blastema_imputedfeatureplot_CTHRC1.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_MMP13.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_TNC.png?v=1" width="33%" />
+
+<img src="figures/umap_blastema_imputedfeatureplot_EPHA3.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_MMP16.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_WNT16.png?v=1" width="33%" />
+ 
 ### Random Forest-based cell type similarity
 
 We used a Random Forest classifier to quantify transcriptional similarity between conditions. Specifically, the model was trained to distinguish cells from uninjured, 3d, 6d, and 9d samples, allowing us to assess how closely related these states are based on their gene expression profiles.
