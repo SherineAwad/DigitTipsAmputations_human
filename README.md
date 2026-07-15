@@ -463,6 +463,12 @@ UCell score is a rank-based enrichment metric that evaluates whether the input g
 
 Unlike conventional feature plots, which display only the measured expression in each individual cell and can be affected by dropout and stochastic variation, KNN-smoothed feature plots improve visualization of gene expression patterns by averaging the expression of each cell with that of its transcriptionally similar neighboring cells. This reduces cell-to-cell noise caused by random dropout and measurement variability, highlighting consistent expression patterns shared across local cellular neighborhoods and revealing underlying expression trends that may be obscured at the single-cell level. As a result, subtle but biologically meaningful cell populations and gene expression programs can become more readily identifiable.
 
+> ⚠️ 🚨⚠️  **Warning:** Think of KNN smoothing as a microscope focus knob, not a truth-creating machine.
+>
+> - It sharpens **weak, noisy signals that are already present**, making underlying expression patterns easier to visualize.
+> - It **does not create new biological signal**. If a signal appears only after KNN smoothing and is absent in the original feature plot, it should be interpreted with caution and verified using the unsmoothed data.
+
+
 <img src="figures/umap_blastema_imputedfeatureplot_ADAM12.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_GREM1.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_OLFML1.png?v=1" width="33%" />
 
 <img src="figures/umap_blastema_imputedfeatureplot_AKAP12.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_ITM2A.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_POSTN.png?v=1" width="33%" />
