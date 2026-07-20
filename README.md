@@ -493,6 +493,11 @@ Neighbour graphs, UMAP, and clustering can then be constructed using this learne
 
 ![](figures/blastema_scvi_umap_leiden.png?v=1) 
 
+#### Now lets see connectivity using PAGA
+PAGA (Partition-Based Graph Abstraction) is a statistical tool that tests whether the number of cells sharing highly similar active gene programs between two distinct cell clusters is greater than what would happen by pure random chance, where similarity means having the closest matching gene expression levels in low-dimensional principal component space.
+
+![](figures/blastema_scvi_scVI_paga_clusters.png?v=1) 
+
  
 ### Random Forest-based cell type similarity
 
