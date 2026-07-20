@@ -500,13 +500,13 @@ PAGA (Partition-Based Graph Abstraction) is a statistical tool that tests whethe
 
 ![](figures/umap_scVI_Module_umap.png?v=1) 
 
-<img src="figures/umap_scVI_Module_umap_Uninjured.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_3d.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_9d.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_6d.png?v=1" width="25%" />
+<img src="figures/umap_scVI_Module_umap_Uninjured.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_3d.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_6d.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_9d.png?v=1" width="25%" />
 
 ##### UCell score on the scVI derived UMAP 
 
 ![](figures/scVI_Ucell_umap.png?v=1) 
 
-<img src="figures/scVI_Ucell_umap_Uninjured.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_6d.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_3d.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_9d.png?v=1" width="25%" />
+<img src="figures/scVI_Ucell_umap_Uninjured.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_3d.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_6d.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_9d.png?v=1" width="25%" />
 
  
 ### Random Forest-based cell type similarity
