@@ -11,6 +11,7 @@ import os
 # -------------------------
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', required=True, help='Path to h5ad file')
+parser.add_argument('--output', required=True, help='Output h5ad file')
 parser.add_argument('--prefix', required=True, help='Prefix for output files')
 parser.add_argument('--latent_dim', type=int, default=30, help='Number of scVI latent dimensions')
 parser.add_argument('--epochs', type=int, default=400, help='Number of training epochs')
@@ -98,7 +99,9 @@ sc.pl.umap(
     size=5,
     alpha=0.6,
     show=False,
-    ax=ax
+    ax=ax,
+    legend_loc="on data"
+
 )
 
 ax.set_title(
@@ -108,7 +111,32 @@ ax.set_title(
 plt.tight_layout()
 
 plt.savefig(
-    f"figures/{args.prefix}_scvi_umap_leiden.png",
+    f"figures/{args.prefix}_umap_leiden_ON.png",
+    dpi=150
+)
+
+plt.close()
+
+fig, ax = plt.subplots(figsize=(10, 8))
+
+sc.pl.umap(
+    adata,
+    color="leiden",
+    size=5,
+    alpha=0.6,
+    show=False,
+    ax=ax
+
+)
+
+ax.set_title(
+    f"scVI UMAP - Leiden clusters ({args.prefix})"
+)
+
+plt.tight_layout()
+
+plt.savefig(
+    f"figures/{args.prefix}_umap_leiden.png",
     dpi=150
 )
 
@@ -138,7 +166,7 @@ if "sample" in adata.obs.columns:
     plt.tight_layout()
 
     plt.savefig(
-        f"figures/{args.prefix}_scvi_umap_sample.png",
+        f"figures/{args.prefix}_umap_sample.png",
         dpi=150
     )
 
@@ -168,7 +196,7 @@ if "celltype" in adata.obs.columns:
     plt.tight_layout()
 
     plt.savefig(
-        f"figures/{args.prefix}_scvi_umap_celltype.png",
+        f"figures/{args.prefix}_umap_celltype.png",
         dpi=150
     )
 
@@ -178,11 +206,9 @@ if "celltype" in adata.obs.columns:
 # -------------------------
 # Save AnnData with scVI embedding
 # -------------------------
-adata.write_h5ad(
-    f"{args.prefix}_scVI.h5ad"
-)
+adata.write_h5ad(args.output)
 
 print("Finished successfully.")
 print(f"Saved model: scvi_model/{args.prefix}")
-print(f"Saved AnnData: {args.prefix}_scVI.h5ad")
+print(f"Saved AnnData: {args.output}")
 print("Saved figures in figures/")

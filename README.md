@@ -478,6 +478,21 @@ Unlike conventional feature plots, which display only the measured expression in
 <img src="figures/umap_blastema_imputedfeatureplot_CTHRC1.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_MMP13.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_TNC.png?v=1" width="33%" />
 
 <img src="figures/umap_blastema_imputedfeatureplot_EPHA3.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_MMP16.png?v=1" width="33%" /><img src="figures/umap_blastema_imputedfeatureplot_WNT16.png?v=1" width="33%" />
+
+
+### scVI model
+
+scVI is a deep generative model that learns a low-dimensional latent representation of single-cell gene expression data. Instead of directly clustering cells based on the original high-dimensional expression matrix or PCA space, scVI learns a representation that captures underlying biological patterns in the data—such as differences in cell states, differentiation, or transcriptional programs—while accounting for the noise and sparsity inherent to single-cell measurements.
+
+Neighbour graphs, UMAP, and clustering can then be constructed using this learned latent representation. This provides an alternative view of cellular relationships and may reveal differences in cell states, clusters, or transitions compared with conventional PCA-based analysis.
+
+
+![](figures/blastema_scvi_umap_sample.png?v=1)
+
+![](figures/blastema_scvi_umap_leiden_ON.png?v=1)
+
+![](figures/blastema_scvi_umap_leiden.png?v=1) 
+
  
 ### Random Forest-based cell type similarity
 
