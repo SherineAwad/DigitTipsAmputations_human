@@ -487,16 +487,25 @@ scVI is a deep generative model that learns a low-dimensional latent representat
 Neighbour graphs, UMAP, and clustering can then be constructed using this learned latent representation. This provides an alternative view of cellular relationships and may reveal differences in cell states, clusters, or transitions compared with conventional PCA-based analysis.
 
 
-![](figures/blastema_scvi_umap_sample.png?v=1)
-
-![](figures/blastema_scvi_umap_leiden_ON.png?v=1)
-
-![](figures/blastema_scvi_umap_leiden.png?v=1) 
+<img src="figures/blastema_scvi_umap_sample.png?v=1" width="33%" /><img src="figures/blastema_scvi_umap_leiden_ON.png?v=1" width="33%" /><img src="figures/blastema_scvi_umap_leiden.png?v=1" width="33%" />
 
 #### Now lets see connectivity using PAGA
 PAGA (Partition-Based Graph Abstraction) is a statistical tool that tests whether the number of cells sharing highly similar active gene programs between two distinct cell clusters is greater than what would happen by pure random chance, where similarity means having the closest matching gene expression levels in low-dimensional principal component space.
 
 ![](figures/blastema_scvi_scVI_paga_clusters.png?v=1) 
+
+#### Let's now replot the UCell and module scores on the scVI-derived UMAP
+
+##### Module score on the scVI derived UMAP 
+![](figures/(umap_scVI_Module_umap.png?v=1) 
+
+<img src="figures/umap_scVI_Module_umap_Uninjured.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_3d.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_9d.png?v=1" width="25%" /><img src="figures/umap_scVI_Module_umap_6d.png?v=1" width="25%" />
+
+##### UCell score on the scVI derived UMAP 
+
+![](figures/scVI_Ucell_umap.png?v=1) 
+
+<img src="figures/scVI_Ucell_umap_Uninjured.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_6d.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_3d.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_9d.png?v=1" width="25%" />
 
  
 ### Random Forest-based cell type similarity
