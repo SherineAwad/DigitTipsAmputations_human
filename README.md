@@ -512,6 +512,193 @@ PAGA (Partition-Based Graph Abstraction) is a statistical tool that tests whethe
 
 ![](figures/scVI__cluster_composition_stacked_bar.png?v=1) 
 
+
+#### Feature plot for mouse marker blastema genes on scVI dervied umap 
+
+<img src="figures/umap_scVI__ADAM12.png?v=1" width="33%" /><img src="figures/umap_scVI__CEBPD.png?v=1" width="33%" /><img src="figures/umap_scVI__FAH.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__IGFBP3.png?v=1" width="33%" /><img src="figures/umap_scVI__PHETA2.png?v=1" width="33%" /><img src="figures/umap_scVI__SMOC2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ADAM19.png?v=1" width="33%" /><img src="figures/umap_scVI__CENPA.png?v=1" width="33%" /><img src="figures/umap_scVI__FAM118A.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__IGFBP4.png?v=1" width="33%" /><img src="figures/umap_scVI__PHLDB2.png?v=1" width="33%" /><img src="figures/umap_scVI__SMYD3.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ADAMTS16.png?v=1" width="33%" /><img src="figures/umap_scVI__CENPE.png?v=1" width="33%" /><img src="figures/umap_scVI__FAM20A.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__IGFBP5.png?v=1" width="33%" /><img src="figures/umap_scVI__PI15.png?v=1" width="33%" /><img src="figures/umap_scVI__SORCS2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ADAMTSL3.png?v=1" width="33%" /><img src="figures/umap_scVI__CENPF.png?v=1" width="33%" /><img src="figures/umap_scVI__FARP2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__IMPA2.png?v=1" width="33%" /><img src="figures/umap_scVI__PLA1A.png?v=1" width="33%" /><img src="figures/umap_scVI__SPC24.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ADGRG6.png?v=1" width="33%" /><img src="figures/umap_scVI__CERS6.png?v=1" width="33%" /><img src="figures/umap_scVI__FAT3.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ITGBL1.png?v=1" width="33%" /><img src="figures/umap_scVI__PLEKHG4.png?v=1" width="33%" /><img src="figures/umap_scVI__STC2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ADGRL3.png?v=1" width="33%" /><img src="figures/umap_scVI__CHADL.png?v=1" width="33%" /><img src="figures/umap_scVI__FBLIM1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ITM2A.png?v=1" width="33%" /><img src="figures/umap_scVI__PLPP3.png?v=1" width="33%" /><img src="figures/umap_scVI__STK26.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__AEBP1.png?v=1" width="33%" /><img src="figures/umap_scVI__CHI3L1.png?v=1" width="33%" /><img src="figures/umap_scVI__FBLN1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__JPH2.png?v=1" width="33%" /><img src="figures/umap_scVI__PLPPR3.png?v=1" width="33%" /><img src="figures/umap_scVI__STMN1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__AFF3.png?v=1" width="33%" /><img src="figures/umap_scVI__CHST1.png?v=1" width="33%" /><img src="figures/umap_scVI__FBN2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__KCNJ15.png?v=1" width="33%" /><img src="figures/umap_scVI__L3HYPDH.png?v=1" width="33%" /><img src="figures/umap_scVI__STMN2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__AJUBA.png?v=1" width="33%" /><img src="figures/umap_scVI__CKS1B.png?v=1" width="33%" /><img src="figures/umap_scVI__FBXO36.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__LCA5L.png?v=1" width="33%" /><img src="figures/umap_scVI__PODNL1.png?v=1" width="33%" /><img src="figures/umap_scVI__STRA6.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__AKAP12.png?v=1" width="33%" /><img src="figures/umap_scVI__CKS2.png?v=1" width="33%" /><img src="figures/umap_scVI__FBXW4.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__LRCH2.png?v=1" width="33%" /><img src="figures/umap_scVI__PRC1.png?v=1" width="33%" /><img src="figures/umap_scVI__SUPT3H.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ALPL.png?v=1" width="33%" /><img src="figures/umap_scVI__CNN1.png?v=1" width="33%" /><img src="figures/umap_scVI__FHOD3.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__LRRC17.png?v=1" width="33%" /><img src="figures/umap_scVI__PRICKLE1.png?v=1" width="33%" /><img src="figures/umap_scVI__TAC1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__AMACR.png?v=1" width="33%" /><img src="figures/umap_scVI__COL12A1.png?v=1" width="33%" /><img src="figures/umap_scVI__FIBIN.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__LRRC75B.png?v=1" width="33%" /><img src="figures/umap_scVI__PRKG2.png?v=1" width="33%" /><img src="figures/umap_scVI__TADA2A.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ANGPT1.png?v=1" width="33%" /><img src="figures/umap_scVI__COL24A1.png?v=1" width="33%" /><img src="figures/umap_scVI__FNDC1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MASP1.png?v=1" width="33%" /><img src="figures/umap_scVI__PTGES3L.png?v=1" width="33%" /><img src="figures/umap_scVI__TCF7.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ANGPT4.png?v=1" width="33%" /><img src="figures/umap_scVI__COL25A1.png?v=1" width="33%" /><img src="figures/umap_scVI__FOXF2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__LY75.png?v=1" width="33%" /><img src="figures/umap_scVI__PTGS2.png?v=1" width="33%" /><img src="figures/umap_scVI__THBS1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ANK3.png?v=1" width="33%" /><img src="figures/umap_scVI__COL6A3.png?v=1" width="33%" /><img src="figures/umap_scVI__GALE.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MATN3.png?v=1" width="33%" /><img src="figures/umap_scVI__PTN.png?v=1" width="33%" /><img src="figures/umap_scVI__THBS2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ANO1.png?v=1" width="33%" /><img src="figures/umap_scVI__COL9A1.png?v=1" width="33%" /><img src="figures/umap_scVI__GALNT3.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MEST.png?v=1" width="33%" /><img src="figures/umap_scVI__PTPRT.png?v=1" width="33%" /><img src="figures/umap_scVI__THEM6.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__APOD.png?v=1" width="33%" /><img src="figures/umap_scVI__COL9A2.png?v=1" width="33%" /><img src="figures/umap_scVI__GAS2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__METRN.png?v=1" width="33%" /><img src="figures/umap_scVI__PTX3.png?v=1" width="33%" /><img src="figures/umap_scVI__TIMP1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ARMCX4.png?v=1" width="33%" /><img src="figures/umap_scVI__COLQ.png?v=1" width="33%" /><img src="figures/umap_scVI__GJB3.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MFAP5.png?v=1" width="33%" /><img src="figures/umap_scVI__PYCR1.png?v=1" width="33%" /><img src="figures/umap_scVI__TMEFF1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ARSI.png?v=1" width="33%" /><img src="figures/umap_scVI__COMMD5.png?v=1" width="33%" /><img src="figures/umap_scVI__GJB5.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MGP.png?v=1" width="33%" /><img src="figures/umap_scVI__PYGB.png?v=1" width="33%" /><img src="figures/umap_scVI__TMEM151A.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ASPHD2.png?v=1" width="33%" /><img src="figures/umap_scVI__CPA6.png?v=1" width="33%" /><img src="figures/umap_scVI__GPER1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MKI67.png?v=1" width="33%" /><img src="figures/umap_scVI__RAB27B.png?v=1" width="33%" /><img src="figures/umap_scVI__TMEM30B.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__ASPN.png?v=1" width="33%" /><img src="figures/umap_scVI__CPNE4.png?v=1" width="33%" /><img src="figures/umap_scVI__GPM6B.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__RAB38.png?v=1" width="33%" /><img src="figures/umap_scVI__RARRES2.png?v=1" width="33%" /><img src="figures/umap_scVI__TNC.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__B4GALT2.png?v=1" width="33%" /><img src="figures/umap_scVI__CPXM2.png?v=1" width="33%" /><img src="figures/umap_scVI__GPR173.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__GPR176.png?v=1" width="33%" /><img src="figures/umap_scVI__RBMX2.png?v=1" width="33%" /><img src="figures/umap_scVI__TNFAIP2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__BCAT1.png?v=1" width="33%" /><img src="figures/umap_scVI__CPZ.png?v=1" width="33%" /><img src="figures/umap_scVI__GPR27.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MORC4.png?v=1" width="33%" /><img src="figures/umap_scVI__RBP4.png?v=1" width="33%" /><img src="figures/umap_scVI__TNFAIP8L3.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__BCL11B.png?v=1" width="33%" /><img src="figures/umap_scVI__CRLF1.png?v=1" width="33%" /><img src="figures/umap_scVI__GPRC5C.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MOXD1.png?v=1" width="33%" /><img src="figures/umap_scVI__RCOR2.png?v=1" width="33%" /><img src="figures/umap_scVI__TNN.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__BCL7A.png?v=1" width="33%" /><img src="figures/umap_scVI__CSGALNACT1.png?v=1" width="33%" /><img src="figures/umap_scVI__GPX3.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MPPED2.png?v=1" width="33%" /><img src="figures/umap_scVI__RELN.png?v=1" width="33%" /><img src="figures/umap_scVI__TOP2A.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__BCL9.png?v=1" width="33%" /><img src="figures/umap_scVI__CTHRC1.png?v=1" width="33%" /><img src="figures/umap_scVI__GRB14.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MYH10.png?v=1" width="33%" /><img src="figures/umap_scVI__TPX2.png?v=1" width="33%" /><img src="figures/umap_scVI__TTLL5.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__BDKRB1.png?v=1" width="33%" /><img src="figures/umap_scVI__CTXN1.png?v=1" width="33%" /><img src="figures/umap_scVI__GREM1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__MYO7A.png?v=1" width="33%" /><img src="figures/umap_scVI__NELL2.png?v=1" width="33%" /><img src="figures/umap_scVI__TUBA1B.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__BIRC5.png?v=1" width="33%" /><img src="figures/umap_scVI__CUL7.png?v=1" width="33%" /><img src="figures/umap_scVI__GRIA3.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__NNMT.png?v=1" width="33%" /><img src="figures/umap_scVI__RGS3.png?v=1" width="33%" /><img src="figures/umap_scVI__TUBB4B.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__BMP3.png?v=1" width="33%" /><img src="figures/umap_scVI__CUL9.png?v=1" width="33%" /><img src="figures/umap_scVI__GUCA1A.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__NOL3.png?v=1" width="33%" /><img src="figures/umap_scVI__S100A4.png?v=1" width="33%" /><img src="figures/umap_scVI__TUBB.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__BNC2.png?v=1" width="33%" /><img src="figures/umap_scVI__CXADR.png?v=1" width="33%" /><img src="figures/umap_scVI__H1-5.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__NPR3.png?v=1" width="33%" /><img src="figures/umap_scVI__SCARA5.png?v=1" width="33%" /><img src="figures/umap_scVI__TTLL5.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__C1QTNF3.png?v=1" width="33%" /><img src="figures/umap_scVI__CXCL14.png?v=1" width="33%" /><img src="figures/umap_scVI__H2AZ1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__SCRN1.png?v=1" width="33%" /><img src="figures/umap_scVI__SEC16B.png?v=1" width="33%" /><img src="figures/umap_scVI__TUBB4B.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CACNA1C.png?v=1" width="33%" /><img src="figures/umap_scVI__CXCL1.png?v=1" width="33%" /><img src="figures/umap_scVI__H2AZ2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__SELENOH.png?v=1" width="33%" /><img src="figures/umap_scVI__TUBB.png?v=1" width="33%" /><img src="figures/umap_scVI__UBE2C.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CAD.png?v=1" width="33%" /><img src="figures/umap_scVI__DDAH1.png?v=1" width="33%" /><img src="figures/umap_scVI__HEBP2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__NUPR1.png?v=1" width="33%" /><img src="figures/umap_scVI__SEMA4F.png?v=1" width="33%" /><img src="figures/umap_scVI__UCN2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CAMK4.png?v=1" width="33%" /><img src="figures/umap_scVI__DIO2.png?v=1" width="33%" /><img src="figures/umap_scVI__HMMR.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__OBSL1.png?v=1" width="33%" /><img src="figures/umap_scVI__SEMA5A.png?v=1" width="33%" /><img src="figures/umap_scVI__UNC5C.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CAPN6.png?v=1" width="33%" /><img src="figures/umap_scVI__DIP2A.png?v=1" width="33%" /><img src="figures/umap_scVI__HOTAIRM1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__OGN.png?v=1" width="33%" /><img src="figures/umap_scVI__SERINC2.png?v=1" width="33%" /><img src="figures/umap_scVI__VCAN.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CCBE1.png?v=1" width="33%" /><img src="figures/umap_scVI__DTX4.png?v=1" width="33%" /><img src="figures/umap_scVI__HPGD.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__OMD.png?v=1" width="33%" /><img src="figures/umap_scVI__SERP2.png?v=1" width="33%" /><img src="figures/umap_scVI__WDR6.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CCDC167.png?v=1" width="33%" /><img src="figures/umap_scVI__DYNC1I1.png?v=1" width="33%" /><img src="figures/umap_scVI__HP.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__PAFAH1B3.png?v=1" width="33%" /><img src="figures/umap_scVI__SERPINA3.png?v=1" width="33%" /><img src="figures/umap_scVI__WIF1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CCDC8.png?v=1" width="33%" /><img src="figures/umap_scVI__DZIP1L.png?v=1" width="33%" /><img src="figures/umap_scVI__HS3ST3B1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__PAK3.png?v=1" width="33%" /><img src="figures/umap_scVI__SERPINE2.png?v=1" width="33%" /><img src="figures/umap_scVI__WNT16.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CCK.png?v=1" width="33%" /><img src="figures/umap_scVI__EFNA4.png?v=1" width="33%" /><img src="figures/umap_scVI__HSPB6.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__PAMR1.png?v=1" width="33%" /><img src="figures/umap_scVI__SFRP2.png?v=1" width="33%" /><img src="figures/umap_scVI__WNT5A.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CCL2.png?v=1" width="33%" /><img src="figures/umap_scVI__ELN.png?v=1" width="33%" /><img src="figures/umap_scVI__IBSP.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__PANK1.png?v=1" width="33%" /><img src="figures/umap_scVI__SH3RF1.png?v=1" width="33%" /><img src="figures/umap_scVI__WNT7B.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CCN5.png?v=1" width="33%" /><img src="figures/umap_scVI__ENO3.png?v=1" width="33%" /><img src="figures/umap_scVI__IFITM1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__PAPPA2.png?v=1" width="33%" /><img src="figures/umap_scVI__SLC24A3.png?v=1" width="33%" /><img src="figures/umap_scVI__WWP2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CCNB2.png?v=1" width="33%" /><img src="figures/umap_scVI__EPHA3.png?v=1" width="33%" /><img src="figures/umap_scVI__IGDCC4.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__PAQR6.png?v=1" width="33%" /><img src="figures/umap_scVI__SLITRK6.png?v=1" width="33%" /><img src="figures/umap_scVI__YDJC.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CDCA8.png?v=1" width="33%" /><img src="figures/umap_scVI__ERMP1.png?v=1" width="33%" /><img src="figures/umap_scVI__IGF1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__PCLAF.png?v=1" width="33%" /><img src="figures/umap_scVI__SMARCA1.png?v=1" width="33%" /><img src="figures/umap_scVI__ZNF185.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CDK1.png?v=1" width="33%" /><img src="figures/umap_scVI__ETV4.png?v=1" width="33%" /><img src="figures/umap_scVI__IGFBP2.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__PDIA5.png?v=1" width="33%" /><img src="figures/umap_scVI__SMC2.png?v=1" width="33%" /><img src="figures/umap_scVI__ZNF354C.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CDKN2A.png?v=1" width="33%" /><img src="figures/umap_scVI__H1-5.png?v=1" width="33%" /><img src="figures/umap_scVI__H2AZ1.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CDKN2B.png?v=1" width="33%" /><img src="figures/umap_scVI__H2AZ2.png?v=1" width="33%" /><img src="figures/umap_scVI__HMMR.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__CCL2.png?v=1" width="33%" /><img src="figures/umap_scVI__CXCL2.png?v=1" width="33%" /><img src="figures/umap_scVI__HP.png?v=1" width="33%" />
+
+<img src="figures/umap_scVI__GPR27.png?v=1" width="33%" /><img src="figures/umap_scVI__NOL3.png?v=1" width="33%" /><img src="figures/umap_scVI__TUBB4B.png?v=1" width="33%" />
+
 ### Random Forest-based cell type similarity
 
 We used a Random Forest classifier to quantify transcriptional similarity between conditions. Specifically, the model was trained to distinguish cells from uninjured, 3d, 6d, and 9d samples, allowing us to assess how closely related these states are based on their gene expression profiles.

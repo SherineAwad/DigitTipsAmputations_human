@@ -12,6 +12,8 @@ import matplotlib.cm as cm
 parser = argparse.ArgumentParser()
 parser.add_argument('--input', required=True, help='Path to h5ad file')
 parser.add_argument('--prefix', required=True, help='Prefix for output figures')
+parser.add_argument("--markers", required=True)
+
 args = parser.parse_args()
 
 # Read data
@@ -151,3 +153,36 @@ plt.savefig(
 plt.close()
 
 print(f"Plot saved to {output_file}")
+
+# Read marker genes from file (one per line)
+marker_file = args.markers
+marker_genes = []
+with open(marker_file, 'r') as f:
+    for line in f:
+        gene = line.strip()
+        if gene:                     # skip empty lines
+            marker_genes.append(gene)
+
+# Remove duplicates
+marker_genes = list(set(marker_genes))
+
+# Check that gene_name column exists
+if 'gene_name' not in adata.var.columns:
+    raise ValueError("'gene_name' column not found in adata.var; cannot map symbols.")
+
+# Match against gene symbols
+valid_genes = []
+for gene in marker_genes:
+    if gene in adata.var["gene_name"].values:
+        valid_genes.append(gene)
+    else:
+        print(f"WARNING: {gene} not found in dataset - skipping")
+
+# Feature plots
+for gene in valid_genes:
+    sc.pl.umap(
+        adata,
+        color=gene,
+        gene_symbols="gene_name",   # show gene symbols
+        save=f"_{args.prefix}_{gene}.png"
+    )
