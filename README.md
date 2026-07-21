@@ -508,7 +508,10 @@ PAGA (Partition-Based Graph Abstraction) is a statistical tool that tests whethe
 
 <img src="figures/scVI_Ucell_umap_Uninjured.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_3d.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_6d.png?v=1" width="25%" /><img src="figures/scVI_Ucell_umap_9d.png?v=1" width="25%" />
 
- 
+#### Cluster decomposition on the scVI derived umap 
+
+![](figures/scVI__cluster_composition_stacked_bar.png?v=1) 
+
 ### Random Forest-based cell type similarity
 
 We used a Random Forest classifier to quantify transcriptional similarity between conditions. Specifically, the model was trained to distinguish cells from uninjured, 3d, 6d, and 9d samples, allowing us to assess how closely related these states are based on their gene expression profiles.
