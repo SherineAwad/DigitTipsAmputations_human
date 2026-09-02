@@ -562,7 +562,7 @@ PAGA (Partition-Based Graph Abstraction) is a statistical tool that tests whethe
 <img src="figures/umap_scVI_LTA.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC02587.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC02362.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC02180.png?v=1" width="25%" />
 <img src="figures/umap_scVI_LINC02008.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC01305.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC01198.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC01133.png?v=1" width="25%" />
 <img src="figures/umap_scVI_LINC00881.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC00682.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC00567.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC00487.png?v=1" width="25%" />
-<img src="figures/umap_scVI_LINC00316.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC00237.png?v=1" width="25%" /><img src="figures/umap_scVI_LGI4.png?v=1" width="25%" /> <img src="figures/umap_scVI_LCN2.png?v=1" width="25%" /><img src="figures/umap_scVI_LAMP5.png?v=1" width="25%" /><img src="figures/umap_scVI_KRT5.png?v=1" width="25%" />
+<img src="figures/umap_scVI_LINC00316.png?v=1" width="25%" /><img src="figures/umap_scVI_LINC00237.png?v=1" width="25%" /><img src="figures/umap_scVI_LGI4.png?v=1" width="25%" /><img src="figures/umap_scVI_LCN2.png?v=1" width="25%" />
 <img src="figures/umap_scVI_KRT4.png?v=1" width="25%" /><img src="figures/umap_scVI_KRT1.png?v=1" width="25%" /><img src="figures/umap_scVI_KRT17.png?v=1" width="25%" /><img src="figures/umap_scVI_KRT15.png?v=1" width="25%" />
 <img src="figures/umap_scVI_KRT13.png?v=1" width="25%" /><img src="figures/umap_scVI_KRT12.png?v=1" width="25%" /><img src="figures/umap_scVI_KREMEN2.png?v=1" width="25%" /><img src="figures/umap_scVI_KLRC1.png?v=1" width="25%" />
 <img src="figures/umap_scVI_KLRB1.png?v=1" width="25%" /><img src="figures/umap_scVI_KERA.png?v=1" width="25%" /><img src="figures/umap_scVI_KDR.png?v=1" width="25%" /><img src="figures/umap_scVI_KCNK10.png?v=1" width="25%" />
@@ -609,6 +609,7 @@ PAGA (Partition-Based Graph Abstraction) is a statistical tool that tests whethe
 <img src="figures/umap_scVI_APCDD1.png?v=1" width="25%" /><img src="figures/umap_scVI_ANGPTL5.png?v=1" width="25%" /><img src="figures/umap_scVI_ALAS2.png?v=1" width="25%" /><img src="figures/umap_scVI_AHSP.png?v=1" width="25%" />
 <img src="figures/umap_scVI_ADIRF.png?v=1" width="25%" /><img src="figures/umap_scVI_ADH1B.png?v=1" width="25%" /><img src="figures/umap_scVI_ADGRL4.png?v=1" width="25%" /><img src="figures/umap_scVI_ADGRF5.png?v=1" width="25%" />
 <img src="figures/umap_scVI_ACTG1.png?v=1" width="25%" /><img src="figures/umap_scVI_ACKR4.png?v=1" width="25%" /><img src="figures/umap_scVI_ACAN.png?v=1" width="25%" /><img src="figures/umap_scVI_ABCB5.png?v=1" width="25%" />
+<img src="figures/umap_scVI_LAMP5.png?v=1" width="25%" /><img src="figures/umap_scVI_KRT5.png?v=1" width="25%" />
 
 
 ### Annotations 
