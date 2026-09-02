@@ -481,6 +481,8 @@ Unlike conventional feature plots, which display only the measured expression in
 
 
 #### UMAP
+![](figures/umap_KNN_Imputed_sample.png?v=1)
+
 ![](figures/umap_KNN_Imputed_leidenON.png?v=1)
 
 ![](figures/umap_KNN_Imputed_leiden.png?v=1)
