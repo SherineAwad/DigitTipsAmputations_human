@@ -22,7 +22,23 @@ with open(args.markers) as f:
         celltype, genes = line.split(":")
         marker_genes[celltype] = [g.strip() for g in genes.split(",")]
 
-adata = sc.read_h5ad(args.input)
+#adata = sc.read_h5ad(args.input)
+adata = sc.read_h5ad(args.input, backed="r")
+
+# UMAP with Leiden clusters
+sc.pl.umap(
+    adata,
+    color="leiden",
+    save=f"_{args.prefix}_leiden.png"
+)
+
+# UMAP with Leiden cluster numbers
+sc.pl.umap(
+    adata,
+    color="leiden",
+    legend_loc="on data",
+    save=f"_{args.prefix}_leidenON.png"
+)
 
 # Collect all unique genes
 all_genes = []
@@ -48,3 +64,5 @@ for gene in valid_genes:
         gene_symbols="gene_name",   # show gene symbols
         save=f"_{args.prefix}_{gene}.png"
     )
+
+

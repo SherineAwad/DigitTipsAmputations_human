@@ -12,7 +12,8 @@ parser.add_argument("--annotations", required=True)
 parser.add_argument("--remove", required=False, help="Comma-separated list of cluster numbers to remove (e.g., '5,7,9')")
 args = parser.parse_args()
 
-adata = sc.read_h5ad(args.input)
+#adata = sc.read_h5ad(args.input)
+adata = sc.read_h5ad(args.input, backed="r")
 
 # Remove specified clusters if provided
 if args.remove:
