@@ -583,8 +583,8 @@ Unlike conventional feature plots, which display only the measured expression in
 
 #### Annotations 
 
-![](figures/umap_KNNImputed_annotated_celltype.png?v=3)
-![](figures/umap_KNNImputed_annotated_celltypeON.png?v=3)
+![](figures/umap_KNN_Imputed_annotated_celltype.png?v=3)
+![](figures/umap_KNN_Imputed_annotated_celltypeON.png?v=3)
 ### scVI model
 
 scVI is a deep generative model that learns a low-dimensional latent representation of single-cell gene expression data. Instead of directly clustering cells based on the original high-dimensional expression matrix or PCA space, scVI learns a representation that captures underlying biological patterns in the data—such as differences in cell states, differentiation, or transcriptional programs—while accounting for the noise and sparsity inherent to single-cell measurements.
