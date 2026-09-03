@@ -583,9 +583,8 @@ Unlike conventional feature plots, which display only the measured expression in
 
 #### Annotations 
 
-![](figures/umap_KNN_Imputed_celltypeON.png?v=1)
-![](figures/umap_KNN_Imputed_celltype.png?v=1)
-
+![](figures/umap_KNN_Imputed_celltypeON.png?v=2)
+![](figures/umap_KNN_Imputed_celltype.png?v=2)
 
 ### scVI model
 
