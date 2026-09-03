@@ -583,8 +583,8 @@ Unlike conventional feature plots, which display only the measured expression in
 
 #### Annotations 
 
-![](figures/umap_KNNImputed_annotated_celltype.png?v=1)
-![](figures/umap_KNNImputed_annotated_celltypeON.png?v=1)
+![](figures/umap_KNNImputed_annotated_celltype.png?v=2)
+![](figures/umap_KNNImputed_annotated_celltypeON.png?v=2)
 
 ### scVI model
 
